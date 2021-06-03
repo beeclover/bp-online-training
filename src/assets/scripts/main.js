@@ -1,3 +1,5 @@
+import './autoload/**/*';
+
 import Router from './util/Router';
 import common from './routes/common';
 
