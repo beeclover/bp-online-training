@@ -1,6 +1,6 @@
-<%@ page pageEncoding="UTF-8" %>
-<div class="bar-top">
-  <div class="container">
+<%@ pagepageEncoding="UTF-8" contentType="text/html;charset=UTF-8"%>
+<div id="bar-top" class="bar-top">
+  <div class="container bar-container">
     <div class="logo-BC">
       <svg xmlns="http://www.w3.org/2000/svg" width="164" height="24" viewBox="0 0 164 24">
         <g transform="translate(-340 -14)">
