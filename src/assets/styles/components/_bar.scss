@@ -1,5 +1,13 @@
 .bar {
+  &-container {
+    display: flex;
+    justify-content: space-between;
+  }
   &-top {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
     background-color: var(--cerulean-blue);
     padding-top: 10px;
     padding-bottom: 10px;

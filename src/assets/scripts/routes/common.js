@@ -1,5 +1,9 @@
+import barTop from '../components/bar-top';
+
 export default {
-  containerInit() {},
+  containerInit() {
+    barTop();
+  },
   init() {
     // common code outside containers (header, menu, footer, etc.)
     // container init
