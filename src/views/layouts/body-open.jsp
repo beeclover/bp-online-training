@@ -10,4 +10,3 @@
 </head>
 <body>
   <%@ include file="../partials/bar-top.jsp" %>
-  <%@ include file="../partials/GNB.jsp" %>

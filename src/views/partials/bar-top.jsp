@@ -96,4 +96,5 @@
       </svg>
     </div>
   </div>
+  <%@ include file="GNB.jsp" %>
 </div>
