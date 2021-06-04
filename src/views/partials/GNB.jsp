@@ -42,7 +42,7 @@
     <div class="gnb-container-right">
       <div class="gnb-search">
         <div class="bar-search">
-          <input type="text" class='bar-search-input' required="required">
+          <input type="text" class='bar-search-input' required="required" placeholder="원하는 강좌를 검색해 보세요.">
           <button type="button" class="bar-search-submit"></button>
         </div>
       </div>

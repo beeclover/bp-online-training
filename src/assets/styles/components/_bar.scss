@@ -5,6 +5,7 @@
   }
   &-top {
     position: fixed;
+    z-index: 9000;
     width: 100%;
     top: 0;
     left: 0;
@@ -21,6 +22,7 @@
     position: relative;
     max-width: 300px;
     &-submit {
+      background-color: transparent;
       box-shadow: none;
       outline: none;
       border: none;
@@ -44,7 +46,10 @@
       padding: 10px var(--paddingX, 20px);
       padding-right: calc(var(--paddingX, 20px) * 2 + var(--icon-width, 20px));
       transition: border-color 0.2s;
-      color: var(--text1);
+      color: var(--text4);
+      &::placeholder {
+        color: var(--text0);
+      }
       &:focus,
       &:valid {
         border: solid 1px var(--cerulean-blue);
