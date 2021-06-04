@@ -1,0 +1,7 @@
+.fnb {
+  &-list {
+    &-logo {
+      @include reset-list;
+    }
+  }
+}

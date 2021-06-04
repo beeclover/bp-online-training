@@ -19,11 +19,9 @@
 
   // menu
   &-menu {
+    @include reset-list;
     display: flex;
     align-items: center;
-    list-style: none;
-    padding: 0;
-    margin-bottom: 0;
     margin-left: -0.5rem;
     margin-right: -0.5rem;
 
@@ -80,9 +78,7 @@
       }
     }
     &-list {
-      list-style: none;
-      padding: 0;
-      margin: 0;
+      @include reset-list;
       margin-top: 0.75rem;
     }
     &-title {
@@ -95,9 +91,7 @@
 
   // personal menu
   &-personal {
-    list-style: none;
-    padding: 0;
-    margin-bottom: 0;
+    @include reset-list;
     display: flex;
     &-item {
       padding: 0.25rem 20px;
