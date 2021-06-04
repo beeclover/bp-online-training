@@ -11,7 +11,7 @@
     background-color: var(--cerulean-blue);
     padding-top: 10px;
     padding-bottom: 10px;
-    svg {
+    [class*='logo'] svg {
       fill: #fff;
     }
   }
@@ -20,8 +20,11 @@
     --icon-width: 20px;
     position: relative;
     max-width: 300px;
-    &:after {
-      content: '';
+    &-submit {
+      box-shadow: none;
+      outline: none;
+      border: none;
+      padding: 0;
       display: block;
       width: 20px;
       height: 20px;
@@ -41,7 +44,9 @@
       padding: 10px var(--paddingX, 20px);
       padding-right: calc(var(--paddingX, 20px) * 2 + var(--icon-width, 20px));
       transition: border-color 0.2s;
-      &:focus {
+      color: var(--text1);
+      &:focus,
+      &:valid {
         border: solid 1px var(--cerulean-blue);
       }
     }
