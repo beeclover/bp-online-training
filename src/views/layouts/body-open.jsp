@@ -8,5 +8,4 @@
   <%@ include file="../partials/head.jsp" %>
   <title>빌딩캠퍼스 - 온라인트레이닝</title>
 </head>
-<body>
-  <%@ include file="../partials/bar-top.jsp" %>
+<%@ include file="../partials/bar-top.jsp" %>
