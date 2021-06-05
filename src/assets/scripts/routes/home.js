@@ -1,21 +1,8 @@
-import Swiper from 'swiper';
-// import gsap from 'gsap';
+import Swiper from 'swiper/bundle';
 
 class Slideshow {
   constructor(el) {
     this.DOM = { el: el };
-
-    this.config = {
-      slideshow: {
-        delay: 3000,
-        pagination: {
-          duration: 3,
-          el: '.swiper-pagination',
-          clickable: true,
-        },
-      },
-    };
-
     this.init();
   }
 
@@ -23,17 +10,34 @@ class Slideshow {
     var self = this;
 
     this.slideshow = new Swiper(this.DOM.el, {
+      simulateTouch: false,
+      slidesPerView: 1,
+      spaceBetween: 30,
       loop: true,
       effect: 'fade',
+      fadeEffect: {
+        crossFade: true,
+      },
       preloadImages: true,
       updateOnImagesReady: true,
-      touchEventsTarget: 'wrapper',
+      // touchEventsTarget: 'wrapper',
       pagination: {
-        el: '.swiper-pagination',
+        el: this.DOM.el.querySelector('.swiper-pagination'),
         clickable: true,
         renderBullet: function (index, className) {
-          return '<span class="' + className + '">' + (index + 1) + '</span>';
+          return (
+            '<span class="' +
+            className +
+            ' hero-swiper-pagination-bullet"></span>'
+          );
         },
+      },
+      hashNavigation: {
+        watchState: true,
+      },
+      navigation: {
+        nextEl: this.DOM.el.querySelector('.swiper-navigation-button.next'),
+        prevEl: this.DOM.el.querySelector('.swiper-navigation-button.prev'),
       },
       on: {
         init: () => {
@@ -53,7 +57,7 @@ class Slideshow {
 
 export default {
   init() {
-    new Slideshow(document.querySelector('.hero-slide'));
+    const swiper = new Slideshow(document.querySelector('.hero-swiper'));
   },
   finalize() {},
 };
