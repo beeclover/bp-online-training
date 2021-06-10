@@ -224,7 +224,27 @@
             <a class="class-readmore btn" href="#">커리큘럼 확인하기</a>
           </div>
         </div>
-        <div class="col-7 video">
+        <div class="col video">
+          <div class="video-wrap">
+            <div class="video-overlay">
+              <div class="video-overlay-control">
+                <svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
+                  <g>
+                    <g fill="none" stroke-width="2px" transform="translate(-700 -1053) translate(700 1053)">
+                      <circle cx="48" cy="48" r="48" stroke="none"/>
+                      <circle cx="48" cy="48" r="47"/>
+                    </g>
+                    <path stroke="none" d="M16.257 3.1a2 2 0 0 1 3.486 0l14.58 25.921A2 2 0 0 1 32.58 32H3.42a2 2 0 0 1-1.743-2.981z" transform="translate(-700 -1053) translate(768 1083) rotate(90)"/>
+                  </g>
+                </svg>
+                <span class="video-overlay-text">샘플 영상 보기</sapn>
+              </div>
+            </div>
+            <video>
+              <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm" type="video/webm">
+              <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
+            </video>
+          </div>
         </div>
       </div>
     </div>
