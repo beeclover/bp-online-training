@@ -93,7 +93,7 @@
     height: var(--contentH);
     background-color: var(--blue-ruin);
     text-align: center;
-    color: var(--w-text0);
+    color: var(--invert-text0);
     line-height: 1.2;
     display: flex;
     flex-direction: column;
@@ -130,7 +130,7 @@
       &-1 {
         font-size: 44px;
         background-size: 1px 1em;
-        @include textShadow(var(--blue-ruin), var(--w-text0));
+        @include textDecoration(var(--invert-text0));
       }
       &-2 {
         opacity: 0.75;
@@ -155,7 +155,7 @@
     &-button {
       position: absolute;
       top: 50%;
-      color: var(--w-text0);
+      color: var(--invert-text0);
       &.prev {
         --x: calc(-60px - 100%);
         left: 0;

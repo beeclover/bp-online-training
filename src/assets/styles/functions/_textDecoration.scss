@@ -1,0 +1,13 @@
+@mixin textDecoration($color) {
+  // box-shadow & text-shdaow를 이용한 text-decoration 구성
+  // 참고: https://codepen.io/999hyeon/pen/QWpVOgL
+  // text-shadow: -2px -2px #{$bg}, -2px 2px #{$bg}, 2px -2px #{$bg},
+  //   2px 2px #{$bg};
+  // box-shadow: inset 0 -0.05em #{$bg}, inset 0 -0.1em #{$color};
+  // display: inline;
+
+  text-decoration: underline;
+  text-decoration-color: #{$color};
+  text-underline-position: from-font;
+  text-decoration-thickness: 0.2rem;
+}

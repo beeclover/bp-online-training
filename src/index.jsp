@@ -189,7 +189,7 @@
   <div class="section section2">
     <div class="container section2-container">
       <div class="row">
-        <div class="col-5 main">
+        <div class="col main">
           <h1 class="main-title">
             빌딩캠퍼스에서 제안하는<br/>
             <strong>이달의 추천 Class</strong>

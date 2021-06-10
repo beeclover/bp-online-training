@@ -3,12 +3,14 @@
 }
 
 .main {
+  max-width: 420px;
   &-title {
     @include title;
     position: relative;
     padding-top: 67px;
     padding-bottom: 67px;
-    color: var(--w-text0);
+    margin-top: 0;
+    color: var(--invert-text0);
 
     &:after {
       --x: calc(-100% + var(--heroImgW));
@@ -44,7 +46,7 @@
   }
   &-title {
     font-size: 38px;
-    @include textShadow(var(--bg0), var(--theatre-blue));
+    @include textDecoration(var(--theatre-blue));
   }
   &-content {
     margin-bottom: 48px;
