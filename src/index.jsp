@@ -188,41 +188,44 @@
   </div>
   <div class="section section2">
     <div class="container section2-container">
-      <div class="col-3 main">
-        <div class="main-title">
-          빌딩캠퍼스에서 제안하는<br/>
-          <strong>이달의 추천 Class</strong>
-        </div>
-        <div class="class class-card">
-          <div class="class-title">
-            건축설계 & 인테리어
+      <div class="row">
+        <div class="col-5 main">
+          <h1 class="main-title">
+            빌딩캠퍼스에서 제안하는<br/>
+            <strong>이달의 추천 Class</strong>
+          </h1>
+          <div class="class class-card">
+            <a href="#" class="class-link">
+              <h2 class="class-title">
+                건축설계 & 인테리어
+              </h2>
+            </a>
+            <svg class="svg-store" style="display: none">
+              <defs>
+                <g id="shape-star">
+                      <path d="M1253.874 1483.125a1.444 1.444 0 0 0-1.335-1.037l-6.954-.149-2.284-6.865a1.416 1.416 0 0 0-2.712 0l-2.284 6.865-6.954.149a1.444 1.444 0 0 0-1.335 1.037 1.538 1.538 0 0 0 .5 1.659l5.542 4.391-2.014 6.957a1.538 1.538 0 0 0 .531 1.648 1.385 1.385 0 0 0 1.664.018l5.709-4.152 5.708 4.152a1.386 1.386 0 0 0 1.664-.018 1.538 1.538 0 0 0 .53-1.648l-2.014-6.957 5.542-4.391a1.538 1.538 0 0 0 .496-1.659z" transform="translate(-360 -1666) translate(-869.945 191.934)"/>
+                </g>
+              </defs>
+            </svg>
+            <ul class="rating-star" data-rating="2">
+              <li class="rating-star-item">
+                <svg viewBox="0 0 24 24"><use xlink:href="#shape-star"></use></svg>
+              </li>
+              <li class="rating-star-item">
+                <svg viewBox="0 0 24 24"><use xlink:href="#shape-star"></use></svg>
+              </li>
+              <li class="rating-star-item">
+                <svg viewBox="0 0 24 24"><use xlink:href="#shape-star"></use></svg>
+              </li>
+            </ul>
+            <p class="class-content">
+              각 분야별 실무에 바로 활용할 수 있는 맞춤형 스킬까지 맞춤형 교육 컨텐츠를 제공하고 있습니다. 
+            </p>
+            <a class="class-readmore btn" href="#">커리큘럼 확인하기</a>
           </div>
-          <svg class="svg-store" style="display: none">
-            <defs>
-              <g id="shape-star">
-                    <path d="M1253.874 1483.125a1.444 1.444 0 0 0-1.335-1.037l-6.954-.149-2.284-6.865a1.416 1.416 0 0 0-2.712 0l-2.284 6.865-6.954.149a1.444 1.444 0 0 0-1.335 1.037 1.538 1.538 0 0 0 .5 1.659l5.542 4.391-2.014 6.957a1.538 1.538 0 0 0 .531 1.648 1.385 1.385 0 0 0 1.664.018l5.709-4.152 5.708 4.152a1.386 1.386 0 0 0 1.664-.018 1.538 1.538 0 0 0 .53-1.648l-2.014-6.957 5.542-4.391a1.538 1.538 0 0 0 .496-1.659z" transform="translate(-360 -1666) translate(-869.945 191.934)"/>
-              </g>
-            </defs>
-          </svg>
-          <ul class="rating-star" data-rating="2">
-            <li class="rating-star-item">
-              <svg viewBox="0 0 24 24"><use xlink:href="#shape-star"></use></svg>
-            </li>
-            <li class="rating-star-item">
-              <svg viewBox="0 0 24 24"><use xlink:href="#shape-star"></use></svg>
-            </li>
-            <li class="rating-star-item">
-              <svg viewBox="0 0 24 24"><use xlink:href="#shape-star"></use></svg>
-            </li>
-          </ul>
-          <p class="class-content">
-            각 분야별 실무에 바로 활용할 수 있는 맞춤형 스킬까지 맞춤형 교육 컨텐츠를 제공하고 있습니다. 
-          </p>
-          <a class="class-readmore btn" href="#">커리큘럼 확인하기</a>
         </div>
-      </div>
-      <div class="col-9 video">
-        
+        <div class="col-7 video">
+        </div>
       </div>
     </div>
   </div>

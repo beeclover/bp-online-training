@@ -1,0 +1,59 @@
+& {
+  overflow: hidden;
+}
+
+.main {
+  &-title {
+    @include title;
+    position: relative;
+    padding-top: 67px;
+    padding-bottom: 67px;
+    color: var(--w-text0);
+
+    &:after {
+      --x: calc(-100% + var(--heroImgW));
+      content: '';
+      display: block;
+      position: absolute;
+      width: 100vw;
+      height: 100%;
+      left: 0;
+      top: 0;
+      z-index: -1;
+      transform: translate(var(--x), 0);
+      background-color: var(--theatre-blue);
+    }
+  }
+}
+
+.class {
+  &-card {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    .rating-star {
+      font-size: 24px;
+      margin-bottom: 40px;
+    }
+  }
+  &-link {
+    color: var(--theatre-blue);
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 16px;
+  }
+  &-title {
+    font-size: 38px;
+    @include textShadow(var(--bg0), var(--theatre-blue));
+  }
+  &-content {
+    margin-bottom: 48px;
+  }
+  &-readmore {
+    background-color: var(--black-out);
+    border-radius: 0;
+    color: var(--w-text0);
+    padding: 20px 78px;
+    font-size: 20px;
+  }
+}
