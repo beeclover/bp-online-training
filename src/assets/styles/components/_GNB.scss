@@ -41,14 +41,14 @@
 
   // active item
   .active {
-    color: var(--cerulean-blue);
+    color: var(--blue-ruin);
   }
 
   // GNB submenu
   &-submenu {
     border: none;
     border-radius: 0;
-    border-top: 8px solid var(--dusk-blue);
+    border-top: 8px solid var(--blueberry-twist);
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
     margin-top: 20px !important;
 

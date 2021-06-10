@@ -9,7 +9,7 @@
     width: 100%;
     top: 0;
     left: 0;
-    background-color: var(--cerulean-blue);
+    background-color: var(--blue-ruin);
     padding-top: 10px;
     padding-bottom: 10px;
     [class*='logo'] svg {
@@ -42,7 +42,7 @@
       width: 100%;
       line-height: 1;
       border-radius: 999px;
-      border: solid 1px var(--very-light-pink);
+      border: solid 1px var(--steam);
       padding: 10px var(--paddingX, 20px);
       padding-right: calc(var(--paddingX, 20px) * 2 + var(--icon-width, 20px));
       transition: border-color 0.2s;
@@ -52,7 +52,7 @@
       }
       &:focus,
       &:valid {
-        border: solid 1px var(--cerulean-blue);
+        border: solid 1px var(--blue-ruin);
       }
     }
   }
