@@ -1,10 +1,22 @@
 .home {
+  $gp: &;
+
   @mixin title {
     font-weight: 300;
-    font-size: 48px;
+    font-size: 40px;
+    strong {
+      font-size: 48px;
+    }
   }
 
-  @import './hero-section';
+  // 섹션 공용
+  .section {
+    margin-bottom: 120px;
+  }
+  // section
+  .hero {
+    @import './hero-section';
+  }
   .section1 {
     @import './section1';
   }
