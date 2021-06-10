@@ -1,9 +1,10 @@
+& {
+  --heroImgW: 820px;
+}
 .hero {
-  --color: #fff;
   --mb: 48px;
   --swiperH: 476px;
   --contentH: 320px;
-  --imgW: 820px;
 
   &-swiper {
     height: calc(var(--swiperH) + var(--mb));
@@ -21,7 +22,7 @@
         position: relative;
         display: flex;
         .fake {
-          min-width: var(--imgW);
+          min-width: var(--heroImgW);
           height: 10px;
         }
       }
@@ -43,7 +44,7 @@
           width: 100%;
           border-radius: 6px;
           opacity: 0.2;
-          background-color: var(--color);
+          background-color: var(--bg0);
           transition: opacity 0.3s;
         }
         &:not(:last-child) {
@@ -60,7 +61,7 @@
       position: relative;
     }
     &-img {
-      max-width: var(--imgW);
+      max-width: var(--heroImgW);
       height: var(--swiperH);
       position: relative;
       z-index: 1;
@@ -87,7 +88,7 @@
       height: var(--contentH);
       background-color: var(--blue-ruin);
       text-align: center;
-      color: var(--color);
+      color: var(--w-text0);
       line-height: 1.2;
       display: flex;
       flex-direction: column;
@@ -124,10 +125,7 @@
         &-1 {
           font-size: 44px;
           background-size: 1px 1em;
-          text-shadow: -2px -2px var(--blue-ruin), -2px 2px var(--blue-ruin),
-            2px -2px var(--blue-ruin), 2px 2px var(--blue-ruin);
-          box-shadow: inset 0 -0.05em var(--blue-ruin),
-            inset 0 -0.1em var(--color);
+          @include textShadow(var(--blue-ruin), var(--w-text0));
         }
         &-2 {
           opacity: 0.75;
@@ -152,7 +150,7 @@
       &-button {
         position: absolute;
         top: 50%;
-        color: var(--color);
+        color: var(--w-text0);
         &.prev {
           --x: calc(-60px - 100%);
           left: 0;

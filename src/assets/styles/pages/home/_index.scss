@@ -1,4 +1,9 @@
 .home {
+  @mixin title {
+    font-weight: 300;
+    font-size: 48px;
+  }
+
   @import './hero-section';
   .section1 {
     @import './section1';
