@@ -96,5 +96,5 @@
       </svg>
     </div>
   </div>
-  <%@ include file="GNB.jsp" %>
+  <%@ include file="bar-main.jsp" %>
 </div>
