@@ -1,0 +1,53 @@
+@mixin icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+$iconSize: "[class*='icon']:not(.icon-label):not(.icon-wrap)";
+
+.icon {
+  &-wrap {
+    display: flex;
+    align-items: center;
+    @supports (gap: 8px) {
+      gap: 8px;
+    }
+    @supports not (gap: 8px) {
+      > *:nth-child(1) {
+        margin-right: 8px;
+      }
+    }
+  }
+  &-label {
+    margin-top: 3px;
+  }
+
+  // icon
+  &-qna {
+    @include icon;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28'%3E%3Cdefs%3E%3Cstyle%3E .cls-2%7Bfill:%23615b5f;stroke:%23fff;stroke-width:.5px%7D %3C/style%3E%3C/defs%3E%3Cg id='icon28_qna' transform='translate(0.334)'%3E%3Cpath id='패스_246' d='M266.882 786.761a13 13 0 1 0-4.94 4.94l5.225 1.627a1.072 1.072 0 0 0 1.342-1.342zm-2.188.184l1.161 3.729-3.729-1.161a1.069 1.069 0 0 0-.881.111 10.857 10.857 0 1 1 3.561-3.561 1.071 1.071 0 0 0-.113.882z' class='cls-2' transform='translate(-241.656 -766.396)'/%3E%3Cpath id='패스_247' d='M263.085 803.662a1.906 1.906 0 1 0 1.906 1.906 1.906 1.906 0 0 0-1.906-1.906z' class='cls-2' transform='translate(-254.585 -791.587)'/%3E%3Cpath id='패스_248' d='M280.747 803.662a1.906 1.906 0 1 0 1.906 1.906 1.906 1.906 0 0 0-1.906-1.906z' class='cls-2' transform='translate(-266.846 -791.587)'/%3E%3Cpath id='패스_249' d='M298.408 803.662a1.906 1.906 0 1 0 1.906 1.906 1.906 1.906 0 0 0-1.906-1.906z' class='cls-2' transform='translate(-279.108 -791.587)'/%3E%3C/g%3E%3C/svg%3E");
+  }
+  &-calendar {
+    @include icon;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Cdefs%3E%3Cstyle%3E .cls-2%7Bfill:%23444;stroke:%23444;stroke-width:.5px%7D %3C/style%3E%3C/defs%3E%3Cg id='icon32_sub01' transform='translate(3 2.169)'%3E%3Cg id='그룹_192' transform='translate(0 -0.169)'%3E%3Cpath id='패스_262' d='M481.479 367.8H460.92a3.081 3.081 0 0 1-3.078-3.078V346.7a3.081 3.081 0 0 1 3.078-3.078h20.56a3.081 3.081 0 0 1 3.078 3.078v18.025a3.082 3.082 0 0 1-3.079 3.075zm-20.56-22.924a1.823 1.823 0 0 0-1.82 1.821v18.025a1.822 1.822 0 0 0 1.82 1.821h20.56a1.822 1.822 0 0 0 1.82-1.821V346.7a1.823 1.823 0 0 0-1.82-1.821z' class='cls-2' transform='translate(-457.842 -341.985)'/%3E%3Cg id='그룹_191' transform='translate(5.017)'%3E%3Cpath id='패스_263' d='M472.438 343.659a.629.629 0 0 1-.629-.629v-3.33a.629.629 0 0 1 1.257 0v3.334a.628.628 0 0 1-.628.625z' class='cls-2' transform='translate(-471.809 -339.068)'/%3E%3Cpath id='패스_264' d='M515.367 343.659a.628.628 0 0 1-.629-.629v-3.33a.629.629 0 0 1 1.257 0v3.334a.628.628 0 0 1-.628.625z' class='cls-2' transform='translate(-499.316 -339.068)'/%3E%3C/g%3E%3C/g%3E%3Cpath id='패스_265' d='M489.321 360.874H464.61a.629.629 0 1 1 0-1.257h24.712a.63.63 0 0 1 0 1.257z' class='cls-2' transform='translate(-463.651 -352.235)'/%3E%3Cpath id='패스_266' d='M482.123 381.513a.629.629 0 0 1-.445-.184l-4.191-4.191a.629.629 0 1 1 .889-.889l3.747 3.746 6.84-6.84a.628.628 0 0 1 .889.889l-7.284 7.285a.628.628 0 0 1-.445.184z' class='cls-2' transform='translate(-470.312 -361.73)'/%3E%3C/g%3E%3C/svg%3E%0A");
+  }
+  &-folder {
+    @include icon;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Cdefs%3E%3Cstyle%3E .cls-2%7Bfill:none;stroke:%23444;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px%7D %3C/style%3E%3C/defs%3E%3Cg id='icon32_sub02' transform='translate(-539.514 -668.944)'%3E%3Cpath id='패스_267' d='M558.527 684.484l-2.36-4.2h-11.653v20.572h24.634v-16.372z' class='cls-2' transform='translate(-1 -5.914)'/%3E%3Cpath id='패스_268' d='M574.933 682.74h9.544v3.171' class='cls-2' transform='translate(-18.571 -7.456)'/%3E%3C/g%3E%3C/svg%3E%0A");
+  }
+  &-star {
+    @include icon;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Cg%3E%3Cpath fill='none' stroke='%23444' stroke-width='2px' d='M636.3 570.762a2.023 2.023 0 0 0-1.924-1.4h-6.916l-2.137-6.6a2.021 2.021 0 0 0-3.847 0l-2.137 6.6h-6.918a2.029 2.029 0 0 0-1.189 3.669l5.6 4.078-2.137 6.6a2.024 2.024 0 0 0 3.112 2.268l5.6-4.077 5.6 4.077a2.014 2.014 0 0 0 2.376 0 2.031 2.031 0 0 0 .734-2.268l-2.138-6.6 5.6-4.078a2.031 2.031 0 0 0 .721-2.269z' transform='translate(-361.739 -1026) translate(-245.665 468.138)'/%3E%3C/g%3E%3C/svg%3E%0A");
+  }
+  &-down {
+    @include icon;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Cdefs%3E%3Cstyle%3E .cls-2%7Bfill:%23fff;stroke:%23fff;stroke-width:.5px%7D %3C/style%3E%3C/defs%3E%3Cg id='ico32_down' transform='translate(-287.841 -339.052)'%3E%3Cg id='그룹_186' transform='translate(296.392 344.052)'%3E%3Cpath id='패스_251' d='M314.737 381.367a.648.648 0 0 1-.46-.19l-6.615-6.615a.65.65 0 0 1 .92-.92l6.155 6.155 6.155-6.155a.65.65 0 0 1 .92.92l-6.615 6.615a.648.648 0 0 1-.46.19z' class='cls-2' transform='translate(-307.472 -362.527)'/%3E%3Cpath id='패스_252' d='M325.923 362.224a.651.651 0 0 1-.65-.65V344.7a.65.65 0 0 1 .65-.65.65.65 0 0 1 .65.65v16.871a.65.65 0 0 1-.65.653z' class='cls-2' transform='translate(-318.658 -344.052)'/%3E%3C/g%3E%3Cpath id='패스_253' d='M316.824 393.853h-26.333a.65.65 0 0 1-.65-.65v-5.851a.65.65 0 1 1 1.3 0v5.2h25.033v-5.2a.65.65 0 0 1 1.3 0v5.848a.65.65 0 0 1-.65.653z' class='cls-2' transform='translate(0 -26.801)'/%3E%3C/g%3E%3C/svg%3E%0A");
+  }
+  &-mov {
+    @include icon;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Cg%3E%3Cg fill='none'%3E%3Cpath d='M11.775 2.939a2 2 0 0 1 3.45 0l10.007 17.049A2 2 0 0 1 23.507 23H3.493a2 2 0 0 1-1.725-3.012z' transform='translate(-732 -1084) translate(760 1087) rotate(90)'/%3E%3Cpath fill='%23fff' d='M13.5 3.951L3.493 21h20.014L13.5 3.951m0-2c.67 0 1.338.33 1.725.988l10.007 17.049C26.014 21.32 25.053 23 23.507 23H3.493c-1.546 0-2.507-1.68-1.725-3.012l10.007-17.05c.387-.658 1.056-.987 1.725-.987z' transform='translate(-732 -1084) translate(760 1087) rotate(90)'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+  }
+}
