@@ -1,2 +1,127 @@
-.page-single-class {
+@mixin classSection1 {
+  .s1 {
+    &-row {
+      --bs-gutter-x: 60px;
+    }
+    &-col {
+      &-left {
+        max-width: calc(520px + var(--bs-gutter-x));
+        width: 100%;
+      }
+      &-header {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        margin-bottom: 32px;
+        &-iconWrap {
+          margin-bottom: 20px;
+          #{$iconSize} {
+            font-size: 28px;
+          }
+        }
+      }
+    }
+  }
+}
+.class {
+  // layout
+  @include classSection1;
+  // style
+  font-size: 1.125rem;
+  .section {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  &-title-1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: var(--black-out);
+    + p {
+      margin-bottom: 0;
+    }
+  }
+  &-goal {
+    &-thumb {
+      margin-bottom: 32px;
+      img {
+        max-width: 100%;
+      }
+    }
+    &-info {
+      @include reset-list;
+      margin-bottom: 40px;
+
+      #{$iconSize} {
+        font-size: 32px;
+      }
+      .icon-label {
+        font-weight: bold;
+      }
+
+      @supports (gap: 20px) {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      @supports not (gap: 20px) {
+        > li:not(:last-child) {
+          margin-bottom: 20px;
+        }
+      }
+
+      &-item {
+        display: flex;
+        align-items: center;
+        padding-left: 4px;
+
+        @supports (gap: 28px) {
+          gap: 28px;
+        }
+        @supports not (gap: 20px) {
+          > *:not(:last-child) {
+            margin-right: 20px;
+          }
+        }
+      }
+    }
+    &-btnWrap {
+      display: flex;
+
+      @supports (gap: 1px) {
+        gap: 1px;
+      }
+      @supports not (gap: 1px) {
+        > *:not(:last-child) {
+          margin-right: 1px;
+          margin-bottom: 1px;
+        }
+      }
+
+      #{$iconSize} {
+        font-size: 32px;
+      }
+      .icon-label {
+        font-size: 20px;
+      }
+
+      .btn {
+        border-radius: 0;
+        width: 100%;
+        color: var(--invert-text0);
+        text-align: center;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        display: flex;
+        justify-content: center;
+      }
+      .btn.down {
+        background-color: var(--black-out);
+      }
+      .btn.mov {
+        background-color: var(--theatre-blue);
+      }
+    }
+  }
 }
