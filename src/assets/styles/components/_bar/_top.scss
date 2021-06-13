@@ -1,0 +1,27 @@
+@at-root {
+  :root {
+    --barTopHeight: 44px;
+  }
+}
+
+&-top {
+  height: var(--barTopHeight);
+  position: fixed;
+  z-index: 9000;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--blue-ruin);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  [class*='logo'] svg {
+    fill: #fff;
+  }
+  &:not(.headroom--top) {
+    @include bar-class-small;
+
+    & + main {
+      --barTopHeight: 0px;
+    }
+  }
+}
