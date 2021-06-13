@@ -8,13 +8,8 @@ $base: (
   invert-text0: #ffffff,
   bg0: #ffffff,
   invert-bg0: #000000,
-  // FNB
-  fnb-bg: #efefef,
-  fnb-border: #cccccc,
-  // fnb-color: var(--text4),
 );
 
 :root {
   @include generate_colors($base);
-  --fnb-color: var(--text4);
 }

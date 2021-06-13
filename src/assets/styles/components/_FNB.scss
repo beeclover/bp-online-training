@@ -1,3 +1,11 @@
+@at-root {
+  :root {
+    --fnb-bg: #efefef;
+    --fnb-border: #cccccc;
+    --fnb-color: var(--text4);
+  }
+}
+
 .fnb {
   background-color: var(--fnb-bg);
   color: var(--fnb-color);
