@@ -1,3 +1,9 @@
+@at-root {
+  :root {
+    --barGnbHeight: 85px;
+  }
+}
+
 .gnb {
   &-container {
     display: flex;
