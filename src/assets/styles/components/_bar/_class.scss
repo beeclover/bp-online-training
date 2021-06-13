@@ -1,8 +1,15 @@
+@at-root {
+  :root {
+    --barClassHeight: 200px;
+  }
+}
+
 &-class {
   position: relative;
   color: var(--invert-text0);
   // page header 요소
-  height: 200px;
+  height: var(--barClassHeight);
+  transition: height 0.3s ease-in-out;
 
   &-container {
     display: flex;
@@ -10,6 +17,7 @@
     height: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
+    overflow: hidden;
 
     &-left {
       display: flex;
@@ -67,17 +75,52 @@
   }
   // class container right
   &-btn {
-    background-color: var(--blue-ruin);
     padding: 28px 54px;
     color: var(--invert-text0);
     font-size: 24px;
-    font-weight: 600;
     border-radius: 0;
     &:hover {
       color: var(--invert-text0);
+    }
+    &.apply {
+      background-color: var(--blue-ruin);
+      font-weight: 600;
+    }
+    &.review {
+      display: none;
+      font-weight: normal;
+      border-left: 1px solid rgba(var(--RGB-invert-text0), 0.2);
     }
   }
 }
 
 @mixin bar-class-small {
+  & + main {
+    --barClassHeight: 56px;
+  }
+  .bar-bg {
+    display: none;
+  }
+  .bar-class {
+    --barClassHeight: 56px;
+    background-color: var(--theatre-blue);
+
+    &-container {
+      padding-top: 14px;
+      padding-bottom: 14px;
+    }
+    &-title {
+      margin-bottom: 0;
+      font-size: 24px;
+    }
+    &-info {
+      display: none;
+    }
+    &-btn {
+      font-size: 18px;
+      &.review {
+        display: block;
+      }
+    }
+  }
 }
