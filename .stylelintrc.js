@@ -10,6 +10,7 @@ module.exports = {
         ignoreAtRules: [
           'extend',
           'at-root',
+          'use',
           'debug',
           'warn',
           'error',

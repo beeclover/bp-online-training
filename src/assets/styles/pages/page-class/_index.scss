@@ -1,31 +1,17 @@
-@mixin classSection1 {
-  .s1 {
-    &-row {
-      --bs-gutter-x: 60px;
-    }
-    &-col {
-      &-left {
-        max-width: calc(520px + var(--bs-gutter-x));
-        width: 100%;
-      }
-      &-header {
-        display: flex;
-        align-items: flex-end;
-        justify-content: space-between;
-        margin-bottom: 32px;
-        &-iconWrap {
-          margin-bottom: 20px;
-          #{$iconSize} {
-            font-size: 28px;
-          }
-        }
-      }
-    }
+@use 'sass:selector';
+@use '../../components/accordion';
+
+@mixin unify-parent($child) {
+  @at-root #{selector.unify(&, $child)} {
+    @content;
   }
 }
+
 .class {
   // layout
-  @include classSection1;
+  .s1 {
+    @import './section1';
+  }
   // style
   font-size: 1.125rem;
   .section {
@@ -123,5 +109,9 @@
         background-color: var(--theatre-blue);
       }
     }
+  }
+  &-accordion {
+    // use bootstrap accordion
+    @include accordion.style1;
   }
 }

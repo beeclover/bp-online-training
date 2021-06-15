@@ -1,7 +1,15 @@
+$base: (
+  blue-ruin: #006ddb,
+  steam: #dddddd,
+  blueberry-twist: #244f80,
+  theatre-blue: #234a7a,
+  black-out: #222222,
+  super-silver: #eeeeee,
+  cerebral-grey: #cccccc,
+  squant: #666666,
+  dhusar-grey: #aaaaaa,
+);
+
 :root {
-  --blue-ruin: #006ddb;
-  --steam: #dddddd;
-  --blueberry-twist: #244f80;
-  --theatre-blue: #234a7a;
-  --black-out: #222222;
+  @include generate_colors($base);
 }
