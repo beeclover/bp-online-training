@@ -130,7 +130,7 @@
       &-1 {
         font-size: 44px;
         background-size: 1px 1em;
-        @include textDecoration(var(--invert-text0));
+        @include textDecoration(var(--blue-ruin), var(--invert-text0));
       }
       &-2 {
         opacity: 0.75;

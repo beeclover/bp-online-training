@@ -46,7 +46,7 @@
   }
   &-title {
     font-size: 38px;
-    @include textDecoration(var(--theatre-blue));
+    @include textDecoration(var(--bg0), var(--theatre-blue));
   }
   &-content {
     margin-bottom: 48px;
@@ -102,7 +102,7 @@
     }
     &-text {
       font-size: 20px;
-      @include textDecoration(var(--invert-text0));
+      @include textDecoration(transparent, var(--invert-text0));
     }
   }
 }
