@@ -2,7 +2,9 @@
   @import './search';
   @import './pageheader';
   @import './class_cat';
+  @import './class_single';
   @import './top';
+  @import './breadcrumbs';
 
   &-container {
     display: flex;
