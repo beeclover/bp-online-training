@@ -2,9 +2,9 @@
 <%@ include file="global-var.jsp" %>
 <%@ include file="views/layouts/body-open.jsp" %>
 <%!
-  String route = "page-single-class";
+  String route = "page-classCat";
 %>
-<body class="page-single-class">
+<body class="page-classCat">
 <main class="class">
   <div class="section s1">
     <div class="container s1-container">

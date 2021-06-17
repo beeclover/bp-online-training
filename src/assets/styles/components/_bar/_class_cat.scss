@@ -1,10 +1,10 @@
 @at-root {
-  :root {
-    --barPageheaderHight: 0px;
+  .page-classCat {
+    --barPageheaderHight: 200px;
   }
 }
 
-&-class {
+&-classCat {
   position: relative;
   color: var(--invert-text0);
   // page header 요소
