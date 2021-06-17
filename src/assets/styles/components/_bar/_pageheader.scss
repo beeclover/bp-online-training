@@ -5,4 +5,10 @@
 }
 
 @mixin bar-pageheader-samll {
+  .bar-bg {
+    display: none;
+  }
+  .bar-breadcrumbs {
+    display: none;
+  }
 }
