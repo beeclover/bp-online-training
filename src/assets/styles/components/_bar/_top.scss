@@ -18,6 +18,7 @@
     fill: #fff;
   }
   &:not(.headroom--top) {
+    @include bar-pageheader-samll;
     @include bar-class-small;
 
     & + main {

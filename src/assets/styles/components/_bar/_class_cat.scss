@@ -7,9 +7,6 @@
 &-classCat {
   position: relative;
   color: var(--invert-text0);
-  // page header 요소
-  height: var(--barPageheaderHight);
-  transition: height 0.3s ease-in-out;
 
   &-container {
     display: flex;
