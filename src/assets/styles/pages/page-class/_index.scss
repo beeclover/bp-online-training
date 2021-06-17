@@ -9,11 +9,16 @@
 
 .class {
   // layout
-  .s1 {
-    @import './section1';
+  &.cat {
+    .s1 {
+      @import './section1';
+    }
+    .s2 {
+      @import './section2';
+    }
   }
-  .s2 {
-    @import './section2';
+  &.single {
+    @import './single';
   }
   // style
   font-size: 1.125rem;
