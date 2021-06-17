@@ -237,5 +237,142 @@
       </div>
     </div>
   </div>
+  <div class="section s2">
+    <div class="container s2-container">
+      <div class="row s2-row-header">
+        <div class="col-12">
+          <div class="s2-col-header">
+          <div class="class-title-1">
+            생생한 후기
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="row class-review">
+        <div class="col-12 col-lg-6 col-xl-4 class-review-item">
+          <div class="card-review">
+            <div class="card-review-header">
+              <div class="card-review-thumbnail">
+                <img src="https://picsum.photos/200?random=1" alt="">
+              </div>
+              <div class="card-review-person">
+                <div class="card-review-name">꿀두히Judy</div>
+                <div class="card-review-date">2021-04-29 00:40:38</div>
+              </div>
+            </div>
+            <div class="card-review-body">
+              <p>
+                두 번 완강했어요. 정말 알차고 배운 것이 <br/>
+                많은 강의들입니다. <br/>
+                정성을 다해 열강해주신 해빈 강님께 <br/>
+                감사드려요~!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-4 class-review-item">
+          <div class="card-review">
+            <div class="card-review-header">
+              <div class="card-review-thumbnail">
+                <img src="https://picsum.photos/200?random=2" alt="">
+              </div>
+              <div class="card-review-person">
+                <div class="card-review-name">Sungwoo Rain Park</div>
+                <div class="card-review-date">2021-04-29 00:40:38</div>
+              </div>
+            </div>
+            <div class="card-review-body">
+              <p>
+                질문드리면 친절하게 답변해주시고,<br/>
+                작업물도 빠르고 정확하게 피드백주셔서
+                정말 감사합니다!!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-4 class-review-item">
+          <div class="card-review">
+            <div class="card-review-header">
+              <div class="card-review-thumbnail">
+                <img src="https://picsum.photos/200?random=3" alt="">
+              </div>
+              <div class="card-review-person">
+                <div class="card-review-name">김소정</div>
+                <div class="card-review-date">2021-04-29 00:40:38</div>
+              </div>
+            </div>
+            <div class="card-review-body">
+              <p>
+                IT 지식이 전혀 없는 사람
+                이 들을 수 있는 강의<br/>
+                항상 최선을 다해주셔서 감사합니다! 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-4 class-review-item">
+          <div class="card-review">
+            <div class="card-review-header">
+              <div class="card-review-thumbnail">
+                <img src="https://picsum.photos/200?random=4" alt="">
+              </div>
+              <div class="card-review-person">
+                <div class="card-review-name">Sungwoo Rain Park</div>
+                <div class="card-review-date">2021-04-29 00:40:38</div>
+              </div>
+            </div>
+            <div class="card-review-body">
+              <p>
+                IT 지식이 전혀 없는 사람
+                이 들을 수 있는 강의<br/>
+                항상 최선을 다해주셔서 감사합니다! 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-4 class-review-item">
+          <div class="card-review">
+            <div class="card-review-header">
+              <div class="card-review-thumbnail">
+                <img src="https://picsum.photos/200?random=5" alt="">
+              </div>
+              <div class="card-review-person">
+                <div class="card-review-name">꿀두히Judy</div>
+                <div class="card-review-date">2021-04-29 00:40:38</div>
+              </div>
+            </div>
+            <div class="card-review-body">
+              <p>
+                두 번 완강했어요. 정말 알차고 배운 것이 <br/>
+                많은 강의들입니다. <br/>
+                정성을 다해 열강해주신 해빈 강님께 <br/>
+                감사드려요~!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-4 class-review-item">
+          <div class="card-review">
+            <div class="card-review-header">
+              <div class="card-review-thumbnail">
+                <img src="https://picsum.photos/200?random=6" alt="">
+              </div>
+              <div class="card-review-person">
+                <div class="card-review-name">Sungwoo Rain Park</div>
+                <div class="card-review-date">2021-04-29 00:40:38</div>
+              </div>
+            </div>
+            <div class="card-review-body">
+              <p>
+                질문드리면 친절하게 답변해주시고,<br/>
+                작업물도 빠르고 정확하게 피드백주셔서
+                정말 감사합니다!!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </main>
 <%@ include file="views/layouts/body-close.jsp" %>

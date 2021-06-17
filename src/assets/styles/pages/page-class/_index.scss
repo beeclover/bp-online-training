@@ -16,6 +16,9 @@
   .s1 {
     @import './section1';
   }
+  .s2 {
+    @import './section2';
+  }
   // style
   font-size: 1.125rem;
   .section {
@@ -117,5 +120,12 @@
   &-accordion {
     // use bootstrap accordion
     @include accordion.style1;
+  }
+  &-review {
+    font-size: 18px;
+
+    &-item {
+      padding-bottom: 32px;
+    }
   }
 }
