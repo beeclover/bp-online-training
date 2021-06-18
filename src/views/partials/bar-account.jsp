@@ -83,5 +83,17 @@
         </div>
       </div>
     </div>
+    <div class="row">
+      <div class="col-12">
+        <ul class="tab">
+          <li>
+            <a href="#" class="tab-item current">수강중인 클래스</a>
+          </li>
+          <li>
+            <a href="#" class="tab-item">후기목록</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </div>

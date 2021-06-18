@@ -1,0 +1,24 @@
+.tab {
+  @include reset-list;
+  display: flex;
+
+  li {
+    width: 100%;
+  }
+  &-item {
+    padding: 1.5rem;
+    text-align: center;
+    border: 1px solid var(--simple-serenity);
+    color: var(--black-out);
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    background-color: var(--bg0);
+
+    &.current {
+      border-color: var(--theatre-blue);
+      color: var(--invert-text0);
+      background-color: var(--theatre-blue);
+    }
+  }
+}
