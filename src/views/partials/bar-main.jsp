@@ -6,5 +6,8 @@
   <% }
   else if (route == "page-classSingle") { %>
     <%@ include file="bar-class_single.jsp" %>
+  <% }
+  else if (route == "page-account") { %>
+    <%@ include file="bar-account.jsp" %>
   <% } %>
 </div>
