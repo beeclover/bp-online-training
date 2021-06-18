@@ -13,12 +13,13 @@
 @import './layouts/main';
 
 // components
+@import './components/icon';
 @import './components/bar';
 @import './components/GNB';
 @import './components/FNB';
 @import './components/rating';
-@import './components/icon';
 @import './components/card';
+@import './components/progress/';
 
 // pages
 @import './pages/home';
