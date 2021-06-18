@@ -1,2 +1,12 @@
 &-account {
+  background-color: var(--ice-fishing);
+
+  &-infoCol {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    &.left {
+      padding-right: 52px;
+      border-right: 1px solid var(--simple-serenity);
+    }
+  }
 }
