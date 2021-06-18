@@ -4,7 +4,8 @@
 <%!
   String route = "page-account";
 %>
-<body class="page-classSingle">
+<body class="page-account">
 <main>
+  <%@ include file="views/partials/bar-account.jsp" %>
 </main>
 <%@ include file="views/layouts/body-close.jsp" %>
