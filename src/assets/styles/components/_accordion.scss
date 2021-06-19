@@ -1,4 +1,5 @@
-@use '../functions/textDecoration' as t;
+@use '../functions/textDecoration' as *;
+@use '../functions/gap' as *;
 @use '../functions/ui' as ui;
 // bootstrap accordion
 @mixin style1 {
@@ -6,6 +7,7 @@
     &-header {
       &-main {
         padding-right: 20px;
+        align-self: center;
       }
       &-title {
         font-size: 20px;
@@ -52,7 +54,7 @@
           font-size: 18px;
           font-weight: bold;
           line-height: 1;
-          @include t.textDecoration(var(--bg0), var(--text0), 1px);
+          @include textDecoration(var(--bg0), var(--text0), 1px);
         }
       }
       &-list {
