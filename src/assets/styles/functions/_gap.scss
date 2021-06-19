@@ -1,0 +1,16 @@
+@mixin gap($size: 1em, $direction: y) {
+  --gap: #{$size};
+  @supports (gap: var(--gap)) {
+    gap: var(--gap);
+  }
+  @supports not (gap: var(--gap)) {
+    > *:not(:last-child) {
+      @if $direction == x {
+        margin-right: var(--gap);
+      }
+      @if $direction == y {
+        margin-bottom: var(--gap);
+      }
+    }
+  }
+}
