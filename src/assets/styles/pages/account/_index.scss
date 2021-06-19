@@ -18,4 +18,8 @@
       margin-top: 100px;
     }
   }
+
+  .review {
+    @import './review';
+  }
 }
