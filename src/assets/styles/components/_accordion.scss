@@ -138,6 +138,35 @@
         }
       }
     }
+    &-info {
+      padding-bottom: 28px;
+      border-bottom: 1px solid var(--black-out);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      &-left {
+        display: flex;
+        align-items: center;
+        @include gap(20px);
+      }
+      &-right {
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+      }
+      &-thumbnail {
+        img {
+          height: 100px;
+        }
+      }
+      &-title {
+        font-size: 2.5rem;
+        @include textDecoration;
+        color: var(--black-out);
+        font-weight: bold;
+      }
+    }
   }
   // active
   .accordion-button:not(.collapsed) .accordion-header {
