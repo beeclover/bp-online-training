@@ -22,4 +22,7 @@
   .review {
     @import './review';
   }
+  .review.empty {
+    @import './empty';
+  }
 }

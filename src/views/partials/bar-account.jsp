@@ -87,10 +87,10 @@
       <div class="col-12">
         <ul class="tab">
           <li>
-            <b><a href="#" class="tab-item current">수강중인 클래스</a></b>
+            <b><a href="/account-class.jsp" class="tab-item current">수강중인 클래스</a></b>
           </li>
           <li>
-            <b><a href="#" class="tab-item">후기목록</a></b>
+            <b><a href="/account-review.jsp" class="tab-item">후기목록</a></b>
           </li>
         </ul>
       </div>
