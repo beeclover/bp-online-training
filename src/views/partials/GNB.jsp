@@ -60,7 +60,8 @@
           </a>
         </li>
         <li class="gnb-personal-item gnb-personal-account">
-          <a href="#">
+          <button class="gnb-menu-item gnb-submenu-btn disable_arrow p-0" type="button" id="accountModal" data-bs-toggle="dropdown"
+            aria-expanded="false">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
               <g transform="translate(-65) translate(65)">
                 <g>
@@ -69,7 +70,15 @@
                 </g>
               </g>
             </svg>
-          </a>
+          </button>
+          <ul class="dropdown-menu gnb-submenu login-false" aria-labelledby="accountModal">
+            <li>
+              <a class="dropdown-item def" href="#">로그인</a>
+            </li>
+            <li>
+              <a class="dropdown-item def" href="#">회원가입</a>
+            </li>
+          </ul>
         </li>
       </ul>
     </div>
