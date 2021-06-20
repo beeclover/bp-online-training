@@ -25,4 +25,7 @@
   .review.empty {
     @import './empty';
   }
+  .review.edit {
+    @import './edit';
+  }
 }
