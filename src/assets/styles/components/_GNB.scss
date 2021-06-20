@@ -161,6 +161,32 @@
           font-weight: 600;
         }
       }
+      .card-user {
+        padding: 16px 24px;
+        --gap: 8px;
+        &-thumbnail {
+          .imgWrap {
+            width: 40px;
+            height: 40px;
+          }
+          &:after {
+            content: none;
+          }
+        }
+        &-name {
+          font-size: 16px;
+        }
+        &-edit a {
+          color: var(--text4);
+        }
+      }
+      .gnb-submenu-list {
+        margin-top: 16px;
+        margin-bottom: 16px;
+        .dropdown-item:hover {
+          background-color: transparent;
+        }
+      }
     }
   }
 }

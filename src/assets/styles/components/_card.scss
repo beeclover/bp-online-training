@@ -49,6 +49,7 @@
   }
   &-user {
     display: flex;
+    flex-wrap: wrap;
 
     @include gap(24px);
 

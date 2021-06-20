@@ -71,13 +71,46 @@
               </g>
             </svg>
           </button>
-          <ul class="dropdown-menu gnb-submenu login-false" aria-labelledby="accountModal">
+          <ul class="dropdown-menu gnb-submenu" aria-labelledby="accountModal">
+            <%-- 로그인 상태 start --%>
+            <li class="account-info">
+              <div class="card-user">
+                <div class="card-user-header">
+                  <div class="card-user-thumbnail">
+                    <div class="imgWrap">
+                      <img src="https://picsum.photos/200" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="card-user-body">
+                  <div class="card-user-name">
+                    빌딩캠퍼스 <span class="unit">님</span>
+                  </div>
+                  <div class="card-user-edit">
+                    <a href="#">로그아웃</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <ul class="gnb-submenu-list">
+                <li>
+                  <a href="#" class="dropdown-item">수강중인 클래스</a>
+                </li>
+                <li>
+                  <a href="#" class="dropdown-item">수강중인 클래스</a>
+                </li>
+              </ul>
+            </li>
+            <%-- 로그인 상태 end --%>
+            <%-- 로그인 안된 상태 start --%>
             <li>
               <a class="dropdown-item def" href="#">로그인</a>
             </li>
             <li>
               <a class="dropdown-item def" href="#">회원가입</a>
             </li>
+            <%-- 로그인 안된 상태 end --%>
           </ul>
         </li>
       </ul>
