@@ -6,7 +6,7 @@
         <h5 class="modal-title">아이디 / 비밀번호 찾기</h5>
       </div>
       <div class="modal-body">
-        <p>
+        <p class="fs-16">
           입력하신 이메일로<br/>
           <span class="primary">임시비밀번호가 발급</span> 되었습니다.
         </p>
