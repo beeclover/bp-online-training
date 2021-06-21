@@ -17,10 +17,13 @@
   .hero {
     @import './hero-section';
   }
-  .section1 {
+  .s1 {
     @import './section1';
   }
-  .section2 {
+  .s2 {
     @import './section2';
+  }
+  .s3 {
+    @import './section3';
   }
 }

@@ -1,0 +1,117 @@
+& {
+  overflow: hidden;
+}
+
+&-title {
+  max-width: 370px;
+  @include title;
+  color: var(--black-out);
+}
+
+&-levels {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+
+  &:after {
+    content: '';
+    display: block;
+    width: calc(100% + 100vw);
+    background-color: var(--cerebral-grey);
+    position: absolute;
+    height: 1px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+  &::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: var(--azure);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+    border-radius: 999px;
+    box-shadow: 0 0 0 2px var(--blue-hijab) inset;
+  }
+  .nav {
+    @include gap(28px);
+    z-index: 2;
+  }
+  .nav-item {
+    position: relative;
+  }
+  .link-tooltip {
+    display: none;
+  }
+  .nav-link {
+    width: 48px;
+    height: 48px;
+    padding: 0;
+    border-radius: 999px;
+    background-color: var(--cold-morning);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    @include gap(2px);
+
+    &.active + .link-tooltip {
+      position: absolute;
+      width: 90px;
+      height: 34px;
+      color: var(--theatre-blue);
+      background-color: var(--bg0);
+      font-weight: bold;
+      box-shadow: 3px 3px 9px 0 rgba(0, 0, 0, 0.16);
+      bottom: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      &:after {
+        width: 0;
+        height: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 8px solid var(--bg0);
+        content: ' ';
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+
+    .icon-star {
+      font-size: 12px;
+    }
+    .icon-star.active {
+      display: none;
+    }
+
+    &.active {
+      background-color: var(--blue-ruin);
+      .icon-star {
+        display: none;
+      }
+      .active {
+        display: block;
+      }
+    }
+  }
+}
+
+&-product {
+  margin-top: 60px;
+  .card-product {
+    margin-bottom: 60px;
+  }
+}
