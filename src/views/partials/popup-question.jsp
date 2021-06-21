@@ -3,7 +3,7 @@
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">아이디 / 비밀번호 찾기</h5>
+        <h5 class="modal-title">질문이 있으신가요?</h5>
       </div>
       <div class="modal-body">
         <p class="fs-16">
