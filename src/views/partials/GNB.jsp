@@ -129,7 +129,7 @@
             <%-- 로그인 상태 end --%>
             <%-- 로그인 안된 상태 start --%>
             <li>
-              <a class="dropdown-item" href="#">로그인</a>
+              <a class="dropdown-item" href="javascript:" data-bs-toggle="modal" data-bs-target="#loginModal">로그인</a>
             </li>
             <li>
               <a class="dropdown-item" href="#">회원가입</a>

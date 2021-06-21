@@ -1,0 +1,34 @@
+.input {
+  &-item {
+    border: 1px solid var(--steam);
+    border-radius: 2px;
+    transition: border-color 0.3s;
+    font-size: 18px;
+    color: var(--black-out);
+    padding: 16px 24px;
+    border-radius: 2px;
+    line-height: 1.6;
+    outline: none;
+
+    &::placeholder {
+      color: var(--text4);
+    }
+    &:focus {
+      border-color: var(--black-out);
+
+      &::placeholder {
+        color: var(--black-out);
+      }
+    }
+  }
+  &-grid {
+    @include gap(12px, y);
+    display: flex;
+    &-inputWrap {
+      display: flex;
+      flex-direction: column;
+      @include gap(12px);
+      width: 100%;
+    }
+  }
+}

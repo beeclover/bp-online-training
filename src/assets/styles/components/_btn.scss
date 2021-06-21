@@ -1,4 +1,7 @@
 .btn {
+  &.def {
+    width: 100%;
+  }
   &.dark {
     background-color: var(--black-out);
     color: var(--invert-text0);
@@ -10,5 +13,23 @@
   &.tool {
     border: 1px solid var(--cerebral-grey);
     border-radius: 2px;
+  }
+  &-submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border: none;
+    color: var(--invert-text0);
+    font-size: 18px;
+    border-radius: 2px;
+    white-space: nowrap;
+    width: 150px;
+    &.primary {
+      background-color: var(--theatre-blue);
+    }
+    &.dark {
+      background-color: var(--black-out);
+    }
   }
 }
