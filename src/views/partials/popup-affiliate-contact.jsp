@@ -38,3 +38,21 @@
     </form>
   </div>
 </div>
+<div class="modal" id="affiliateContacFinishtModal" tabindex="-1" aria-labelledby="affiliateContacFinishtModal" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header justify-content-center">
+        <h5 class="modal-title">감사합니다</h5>
+      </div>
+      <div class="modal-body text-center">
+        <p class="fs-16">
+          문의 내용 확인 후 빠른 시일내에<br/>
+          연락 드리도록 하겠습니다.
+        </p>
+      </div>
+      <div class="modal-footer justify-content-center">
+        <a href="javascript:" class="btn primary" data-bs-dismiss="modal" style="min-width: 240px">확인</a>
+      </div>
+    </div>
+  </div>
+</div>
