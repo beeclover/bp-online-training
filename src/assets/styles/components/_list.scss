@@ -1,0 +1,15 @@
+.precautions {
+  @include reset-list;
+  > li {
+    padding-left: 1.3em;
+    position: relative;
+    &:after {
+      content: '※';
+      position: absolute;
+      top: 1em;
+      left: 0;
+      font-size: 0.8em;
+      transform: translateY(-50%);
+    }
+  }
+}
