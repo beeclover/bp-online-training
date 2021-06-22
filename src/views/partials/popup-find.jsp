@@ -21,7 +21,7 @@
             </div>
             <form action="">
               <div class="input-grid">
-                <div class="input-grid-inputWrap">
+                <div class="input-inputWrap">
                   <input type="text" class="input-item" placeholder="이름">
                   <input type="text" class="input-item" placeholder="휴대폰 번호">
                 </div>
@@ -37,7 +37,7 @@
             </div>
             <form action="">
               <div class="input-grid">
-                <div class="input-grid-inputWrap">
+                <div class="input-inputWrap">
                   <input type="text" class="input-item" placeholder="아이디">
                   <input type="text" class="input-item" placeholder="이메일">
                 </div>

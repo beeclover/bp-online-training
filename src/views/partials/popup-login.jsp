@@ -8,7 +8,7 @@
       <div class="modal-body">
         <form action="">
           <div class="input-grid">
-            <div class="input-grid-inputWrap">
+            <div class="input-inputWrap">
               <input type="text" class="input-item" placeholder="아이디">
               <input type="password" class="input-item" placeholder="비밀번호">
             </div>

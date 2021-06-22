@@ -10,17 +10,17 @@
       </div>
       <div class="modal-body">
         <div class="input-grid flex-wrap">
-          <div class="input-grid-inputWrap">
+          <div class="input-inputWrap">
             <input type="text" class="input-item" placeholder="이름">
             <input type="text" class="input-item" placeholder="회사명">
             <input type="text" class="input-item" placeholder="핸드폰">
           </div>
-          <div class="input-grid-inputWrap email">
+          <div class="input-inputWrap email">
             <input type="text" class="input-item" placeholder="이메일">
             <span class="unit">@</span>
             <input type="text" class="input-item"">
           </div>
-          <div class="input-grid-inputWrap">
+          <div class="input-inputWrap">
             <textarea class="input-item" name="" id="" cols="30" rows="7" placeholder="내용을 입력해주세요."></textarea>
           </div>
         </div>
