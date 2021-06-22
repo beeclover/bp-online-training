@@ -13,7 +13,7 @@
     }
   }
   &-body {
-    :last-child {
+    > :last-child {
       margin-bottom: 0;
     }
   }
@@ -21,6 +21,10 @@
     border-bottom: none;
     padding-top: 44px;
     padding-bottom: 14px;
+    &.hasBorder {
+      border: none;
+      border-bottom: 1px solid var(--super-silver);
+    }
   }
   &-footer {
     padding-top: 10px;

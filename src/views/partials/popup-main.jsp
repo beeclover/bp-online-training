@@ -8,4 +8,5 @@
   <%@ include file="popup-promotion.jsp" %>
   <%@ include file="popup-review.jsp" %>
   <%@ include file="popup-feedback.jsp" %>
+  <%@ include file="popup-shoppingcart.jsp" %>
 </div>
