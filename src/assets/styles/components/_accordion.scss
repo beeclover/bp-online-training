@@ -249,3 +249,33 @@
     }
   }
 }
+
+@mixin modal {
+  .accordion {
+    &-info {
+      flex-wrap: nowrap;
+      @include gap(20px, x);
+      width: 100%;
+      justify-content: flex-start;
+      &-title {
+        font-size: 28px;
+        text-shadow: none;
+        box-shadow: none;
+        margin: 0;
+      }
+      &-description {
+        font-size: 18px;
+        color: var(--black-out, #000000);
+      }
+      &-right {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+      }
+    }
+    &-button:after {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}

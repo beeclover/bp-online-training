@@ -5,4 +5,5 @@
   <%@ include file="popup-find-password.jsp" %>
   <%@ include file="popup-question.jsp" %>
   <%@ include file="popup-affiliate-contact.jsp" %>
+  <%@ include file="popup-class.jsp" %>
 </div>

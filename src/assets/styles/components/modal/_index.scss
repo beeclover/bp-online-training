@@ -1,3 +1,5 @@
+@use '../../components/accordion';
+
 .modal {
   &-dialog {
     max-width: 570px;
@@ -49,4 +51,7 @@
     margin-bottom: 20px;
     font-size: 16px;
   }
+
+  @include accordion.style1;
+  @include accordion.modal;
 }
