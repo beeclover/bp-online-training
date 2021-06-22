@@ -112,6 +112,9 @@
               background-color: var(--super-silver);
               color: var(--text3);
             }
+            .time {
+              color: var(--text3);
+            }
           }
           &.current {
             --bar: linear-gradient(to right, var(--blue-ruin) 13%, #00aced 89%);
@@ -276,6 +279,9 @@
     &-button:after {
       width: 24px;
       height: 24px;
+    }
+    &-body-list-item.current {
+      font-weight: normal;
     }
   }
 }

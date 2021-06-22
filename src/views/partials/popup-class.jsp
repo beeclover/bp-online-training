@@ -56,27 +56,27 @@
                 <ul class="accordion-body-list">
                   <li class="accordion-body-list-item done">
                     <span class="title">Getting Started</span>
-                    <a class="link" href="#">다시보기</a>
+                    <span class="time">02:37</span>
                   </li>
                   <li class="accordion-body-list-item done">
                     <span class="title">Creating New Document</span>
-                    <a class="link" href="#">다시보기</a>
+                    <span class="time">02:37</span>
                   </li>
                   <li class="accordion-body-list-item done">
                     <span class="title">Prepferencrs Overview</span>
-                    <a class="link" href="#">다시보기</a>
+                    <span class="time">02:37</span>
                   </li>
                   <li class="accordion-body-list-item current">
                     <span class="title">Document Setup &Customization</span>
-                    <a class="link" href="#">강의보기</a>
+                    <span class="time">02:37</span>
                   </li>
                   <li class="accordion-body-list-item">
                     <span class="title">Document Navigation</span>
-                    <a class="link" href="#">강의보기</a>
+                    <span class="time">02:37</span>
                   </li>
                   <li class="accordion-body-list-item">
                     <span class="title">Course 1 review Quiz</span>
-                    <a class="link" href="#">강의보기</a>
+                    <span class="time">02:37</span>
                   </li>
                 </ul>
               </div>
@@ -116,27 +116,27 @@
                 <ul class="accordion-body-list">
                   <li class="accordion-body-list-item done">
                     <span class="title">Getting Started</span>
-                    <a class="link" href="#">다시보기</a>
+                    <span class="time">02:37</span>
                   </li>
                   <li class="accordion-body-list-item done">
                     <span class="title">Creating New Document</span>
-                    <a class="link" href="#">다시보기</a>
+                    <span class="time">02:37</span>
                   </li>
                   <li class="accordion-body-list-item done">
                     <span class="title">Prepferencrs Overview</span>
-                    <a class="link" href="#">다시보기</a>
+                    <span class="time">02:37</span>
                   </li>
                   <li class="accordion-body-list-item current">
                     <span class="title">Document Setup &Customization</span>
-                    <a class="link" href="#">강의보기</a>
+                    <span class="time">02:37</span>
                   </li>
                   <li class="accordion-body-list-item">
                     <span class="title">Document Navigation</span>
-                    <a class="link" href="#">강의보기</a>
+                    <span class="time">02:37</span>
                   </li>
                   <li class="accordion-body-list-item">
                     <span class="title">Course 1 review Quiz</span>
-                    <a class="link" href="#">강의보기</a>
+                    <span class="time">02:37</span>
                   </li>
                 </ul>
               </div>
