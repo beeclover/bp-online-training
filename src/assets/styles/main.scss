@@ -8,6 +8,7 @@
 @import './common/root-zeplin';
 @import './common/root';
 @import './common/global';
+@import './common/token';
 
 // layout
 @import './layouts/main';
@@ -24,7 +25,6 @@
 @import './components/btn';
 @import './components/modal';
 @import './components/input';
-@import './components/fontsize';
 
 // pages
 @import './pages/home';
