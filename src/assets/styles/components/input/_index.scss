@@ -11,6 +11,7 @@
     border-radius: 2px;
     line-height: 1.6;
     outline: none;
+    min-width: 0;
 
     &::placeholder {
       color: var(--text4);
@@ -44,5 +45,14 @@
     display: flex;
     align-items: center;
     @include gap(8px);
+    &.left {
+      > label {
+        order: -1;
+        width: 162px;
+      }
+    }
+  }
+  &-description {
+    color: var(--text4);
   }
 }
