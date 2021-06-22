@@ -42,8 +42,36 @@
     <div class="gnb-container-right">
       <div class="gnb-search">
         <div class="input-search">
-          <input type="text" class='input-search-input' required="required" placeholder="원하는 강좌를 검색해 보세요.">
           <button type="button" class="input-search-submit"></button>
+          <input type="text" class='input-search-input' required="required" placeholder="원하는 강좌를 검색해 보세요.">
+          <div class="input-search-suggestions">
+            <ul class="input-search-suggestions-body">
+            <li>
+              <a class="input-search-suggestions-item" href="#"><span class="primary">건축</span>설계 모델링의 이해</a>
+            </li>
+            <li>
+              <a class="input-search-suggestions-item" href="#">모델링의 <span class="primary">건축</span></a>
+            </li>
+            <li>
+              <a class="input-search-suggestions-item" href="#"><span class="primary">건축</span>설계 모델링의 이해</a>
+            </li>
+            <li>
+              <a class="input-search-suggestions-item" href="#">모델링의 <span class="primary">건축</span></a>
+            </li>
+            <li>
+              <a class="input-search-suggestions-item" href="#"><span class="primary">건축</span>설계 모델링의 이해</a>
+            </li>
+            <li>
+              <a class="input-search-suggestions-item" href="#">모델링의 <span class="primary">건축</span></a>
+            </li>
+            <li>
+              <a class="input-search-suggestions-item" href="#"><span class="primary">건축</span>설계 모델링의 이해</a>
+            </li>
+            <li>
+              <a class="input-search-suggestions-item" href="#">모델링의 <span class="primary">건축</span></a>
+            </li>
+            </ul>
+          </div>
         </div>
       </div>
       <ul class="gnb-personal">
