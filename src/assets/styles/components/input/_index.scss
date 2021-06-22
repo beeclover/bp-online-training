@@ -1,4 +1,6 @@
 .input {
+  @import './search';
+
   &-item {
     border: 1px solid var(--steam);
     border-radius: 2px;
