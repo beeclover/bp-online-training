@@ -1,7 +1,7 @@
 &-header {
   font-size: 2.5rem;
   margin-bottom: 32px;
-  color: var(--black-out);
+  color: var(--text1);
   font-weight: bold;
 }
 
@@ -38,7 +38,7 @@
   &-tool {
     display: flex;
     @include gap(8px);
-    color: var(--black-out);
+    color: var(--text1);
     padding: 8px;
 
     #{$iconSize} {

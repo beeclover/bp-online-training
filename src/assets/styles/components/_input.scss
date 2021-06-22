@@ -4,7 +4,7 @@
     border-radius: 2px;
     transition: border-color 0.3s;
     font-size: 18px;
-    color: var(--black-out);
+    color: var(--text1);
     padding: 16px 24px;
     border-radius: 2px;
     line-height: 1.6;
@@ -17,7 +17,7 @@
       border-color: var(--black-out);
 
       &::placeholder {
-        color: var(--black-out);
+        color: var(--text1);
       }
     }
   }
