@@ -7,7 +7,7 @@
 <body class="page-account account">
 <main>
   <%@ include file="views/partials/bar-account.jsp" %>
-  <div class="section review edit">
+  <div class="section review write">
     <div class="container">
       <div class="review-header">건축설계 & 인테리어</div>
       <div class="card">

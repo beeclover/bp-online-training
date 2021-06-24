@@ -18,7 +18,7 @@
       <div class="col-12">
         <ul>
           <li><a href="/account-class.jsp"></a></li>
-          <li><a href="/account-review-edit.jsp"></a></li>
+          <li><a href="/account-review-write.jsp"></a></li>
           <li><a href="/account-review-empty.jsp"></a></li>
           <li><a href="/account-review.jsp"></a></li>
           <li><a href="/class_cat.jsp"></a></li>
@@ -28,6 +28,7 @@
           <li><a href="/search.jsp"></a></li>
           <li><a href="/signup-com.jsp"></a></li>
           <li><a href="/signup-personal.jsp"></a></li>
+          <li><a href="/roadmap.jsp"></a></li>
         </ul>
       </div>
     </div>
