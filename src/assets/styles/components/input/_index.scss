@@ -23,6 +23,9 @@
         color: var(--text1);
       }
     }
+    &:read-only {
+      border-color: transparent;
+    }
   }
   &-grid {
     @include gap(12px, y);
