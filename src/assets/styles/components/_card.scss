@@ -184,4 +184,70 @@
       }
     }
   }
+  &-roadmap {
+    &-wrap {
+      --cardHeight: 160px;
+      --space: 100px;
+    }
+    background-color: var(--bg0);
+    height: var(--cardHeight);
+    width: 100%;
+    display: table;
+    margin-bottom: var(--space);
+    border: solid 1px var(--dhusar-grey);
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--text1);
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+
+    &:hover {
+      border-color: var(--blue-ruin);
+      background-color: var(--blue-ruin);
+      color: var(--invert-text0);
+    }
+    b {
+      font-size: 1.1em;
+    }
+    &-header {
+      height: 72px;
+      color: var(--invert-text0);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      margin-bottom: var(--space);
+      background-color: var(--black-out);
+      font-size: 24px;
+      &.fullWidth {
+        width: calc(100% + var(--bs-gutter-x) - 1px);
+        justify-content: flex-start;
+        padding-left: calc(44px + 8px);
+      }
+    }
+    &-rowHeader {
+      height: var(--cardHeight);
+      background-color: var(--theatre-blue);
+      border-left: 8px solid var(--blue-ruin);
+      padding: 28px 44px;
+      margin-bottom: var(--space);
+      color: var(--invert-text0);
+      display: flex;
+      flex-direction: column;
+      span {
+        opacity: 0.5;
+        margin-bottom: 8px;
+      }
+      b {
+        font-size: 24px;
+        line-height: 1.2;
+      }
+      &.row2 {
+        height: calc(var(--cardHeight) * 2 + var(--space));
+      }
+    }
+  }
 }
