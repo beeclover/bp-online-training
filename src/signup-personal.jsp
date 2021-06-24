@@ -20,19 +20,19 @@
         </ul>
         <form action="">
           <div class="signup-content">
-            <div class="input-label left">
+            <label class="input-label left">
               <input type="text" class="input-item" required>
-              <label>사용자명 (한글)</label>
-            </div>
-            <div class="input-label left">
+              <span>사용자명 (한글)</span>
+            </label>
+            <label class="input-label left">
               <input type="text" class="input-item" required>
-              <label>영문이름 (성)</label>
-            </div>
-            <div class="input-label left">
+              <span>영문이름 (성)</span>
+            </label>
+            <label class="input-label left">
               <input type="text" class="input-item" required>
-              <label>영문이름 (이름)</label>
-            </div>
-            <div class="input-label left">
+              <span>영문이름 (이름)</span>
+            </label>
+            <label class="input-label left">
               <div required>
                 <div class="input-grid align-item mb-3">
                   <input type="text" class="input-item" required>
@@ -48,37 +48,37 @@
                   </div>
                   <button class="btn tool px-4 whiteout c-text3" type="button" style="white-space: nowrap">중복확인</button>
                 </div>
-                <div class="input-label">
+                <label class="input-label">
                   <input type="checkbox" name="" required>
-                  <label>이메일 수신 동의 (필수)</label>
-                </div>
+                  <span class="">이메일 수신 동의 (필수)</span>
+                </label>
               </div>
-              <label>사용자명 (한글)</label>
-            </div>
-            <div class="input-label left">
+              <span>이메일 주소</span>
+            </label>
+            <label class="input-label left">
               <input type="text" class="input-item" required>
-              <label>비밀번호</label>
-            </div>
-            <div class="input-label left">
+              <span>비밀번호</span>
+            </label>
+            <label class="input-label left">
               <div required>
                 <input type="text" class="input-item w-100 mb-3" required>
                 <div class="input-description">
                   비밀번호는 8자리 이상, 숫자 하나 이상을 반드시 포함해주세요
                 </div>
               </div>
-              <label>비밀번호 확인</label>
-            </div>
-            <div class="input-label left">
+              <span>비밀번호 확인</span>
+            </label>
+            <label class="input-label left">
               <div required>
                 <input type="text" class="input-item w-100 mb-3" required placeholder="-없이 숫자만 입력해주세요">
-                <div class="input-label">
+                <label class="input-label">
                   <input type="checkbox" name="">
-                  <label class="c-text1">SMS 문자 수신동의</label>
-                </div>
+                  <span class="c-text1">SMS 문자 수신동의</span>
+                </label>
               </div>
-              <label>휴대폰 번호</label>
-            </div>
-            <div class="input-label left">
+              <span>휴대폰 번호</span>
+            </label>
+            <label class="input-label left">
               <div class="input-grid align-item" required>
                 <input type="text" class="input-item w-100" id="sample5_address" placeholder="주소" required>
                 <input type="button" class="btn tool px-3 whiteout c-text3" onclick="sample5_execDaumPostcode()" value="주소 검색">
@@ -132,33 +132,33 @@
                     }
                 </script>
               </div>
-              <label>지역</label>
-            </div>
+              <span>지역</span>
+            </label>
             <div class="signup-consent">
               <ul class="signup-consent-list">
                 <li class="mb-3">
-                  <div class="input-label">
+                  <label class="input-label">
                     <input type="checkbox" name="">
                     <label class="fs-20 c-text2 fw-bold">모든 약관 동의</label>
-                  </div>
+                  </label>
                 </li>
                 <li>
-                  <div class="input-label">
+                  <label class="input-label">
                     <input type="checkbox" name="" required>
                     <label class="fs-16"><a href="#"><span class="primary">사이트 이용약관</span></a> 에 동의합니다.(필수)</label>
-                  </div>
+                  </label>
                 </li>
                 <li>
-                  <div class="input-label">
+                  <label class="input-label">
                     <input type="checkbox" name="" required>
                     <label class="fs-16"><span class="primary">개인정보 및 마케팅활용</span> 수신에 동의 합니다.(필수)</label>
-                  </div>
+                  </label>
                 </li>
                 <li>
-                  <div class="input-label">
+                  <label class="input-label">
                     <input type="checkbox" name="">
                     <label class="fs-16"><span class="primary">제3자 정보제공</span>에 동의 합니다.</label>
-                  </div>
+                  </label>
                 </li>
               </ul>
             </div>

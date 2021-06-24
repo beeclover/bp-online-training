@@ -46,7 +46,7 @@
     align-items: center;
     @include gap(8px);
     &.left {
-      > label {
+      > span {
         order: -1;
         width: 162px;
       }
