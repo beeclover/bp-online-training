@@ -51,6 +51,17 @@
         width: 162px;
       }
     }
+    &.column {
+      flex-direction: column;
+      align-items: flex-start;
+
+      > input {
+        width: 100%;
+      }
+      > span {
+        order: -1;
+      }
+    }
   }
   &-description {
     color: var(--text4);
