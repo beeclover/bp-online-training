@@ -28,4 +28,7 @@
   .review.write {
     @import './write';
   }
+  &-edit {
+    @import './edit';
+  }
 }

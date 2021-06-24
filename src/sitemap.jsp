@@ -29,6 +29,7 @@
           <li><a href="/signup-com.jsp"></a></li>
           <li><a href="/signup-personal.jsp"></a></li>
           <li><a href="/roadmap.jsp"></a></li>
+          <li><a href="/account-edit-personal.jsp"></a></li>
         </ul>
       </div>
     </div>
