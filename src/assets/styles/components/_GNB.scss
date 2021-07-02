@@ -5,10 +5,10 @@
 }
 
 .gnb {
+  height: var(--barGnbHeight);
   &-container {
+    height: 100%;
     display: flex;
-    padding-top: 23px;
-    padding-bottom: 23px;
     align-items: center;
     justify-content: space-between;
 
@@ -36,6 +36,11 @@
       font-size: 1.125rem;
       padding: calc(0.25rem + 1px) 0.5rem 0.25rem;
       color: var(--text0, #000);
+    }
+    &-btn {
+      --x: calc(var(--barGnbHeight) / 3);
+      font-size: var(--barGnbHeight);
+      transform: translateX(calc(-1 * var(--x)));
     }
   }
 
