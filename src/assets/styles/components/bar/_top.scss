@@ -1,6 +1,9 @@
 @at-root {
   :root {
     --barTopHeight: 44px;
+    @include media-breakpoint-up(xs) {
+      --barTopHeight: 40px;
+    }
   }
 }
 
@@ -12,10 +15,12 @@
   top: 0;
   left: 0;
   background-color: var(--blue-ruin);
-  padding-top: 10px;
-  padding-bottom: 10px;
   [class*='logo'] svg {
     fill: #fff;
+    width: auto;
+    @include media-breakpoint-up(xs) {
+      height: 20px;
+    }
   }
   &:not(.headroom--top) {
     @include bar-pageheader-samll;
