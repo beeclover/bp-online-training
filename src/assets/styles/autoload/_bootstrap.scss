@@ -1,7 +1,7 @@
 @import '~bootstrap/scss/bootstrap';
 
 .container {
-  @include media-breakpoint-up(xl) {
+  @include media-breakpoint-up(xxl) {
     max-width: 1261px;
   }
 }
