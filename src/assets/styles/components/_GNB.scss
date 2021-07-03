@@ -1,6 +1,9 @@
 @at-root {
   :root {
-    --barGnbHeight: 85px;
+    --barGnbHeight: 60px;
+    @include media-breakpoint-up(sm) {
+      --barGnbHeight: 85px;
+    }
   }
 }
 
@@ -12,6 +15,10 @@
     align-items: center;
     justify-content: space-between;
 
+    &-left {
+      position: relative;
+      min-width: calc((var(--barGnbHeight) / 3) * 2);
+    }
     &-right {
       justify-self: flex-end;
       display: flex;
@@ -40,7 +47,15 @@
     &-btn {
       --x: calc(var(--barGnbHeight) / 3);
       font-size: var(--barGnbHeight);
-      transform: translateX(calc(-1 * var(--x)));
+      transform: translate(calc(-1 * var(--x)), -50%);
+      position: absolute;
+      left: 0;
+      top: 50%;
+      @include media-breakpoint-down(sm) {
+        label {
+          transform: scale(1.5);
+        }
+      }
     }
   }
 
