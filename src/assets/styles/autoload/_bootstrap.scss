@@ -4,4 +4,15 @@
   @include media-breakpoint-up(xxl) {
     max-width: 1261px;
   }
+  &,
+  &-fluid,
+  &-xxl,
+  &-xl,
+  &-lg,
+  &-md,
+  &-sm {
+    @include media-breakpoint-down(sm) {
+      --bs-gutter-x: 20px;
+    }
+  }
 }
