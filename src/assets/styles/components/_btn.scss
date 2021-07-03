@@ -82,7 +82,7 @@
       opacity: 1;
     }
 
-    &.cross input:checked + svg {
+    body.modal-open &.cross svg {
       .line--1,
       .line--3 {
         --length: 22.627416998;
@@ -99,7 +99,7 @@
     .line--2 {
       --total-length: 70;
     }
-    input:checked + svg {
+    body.modal-open & svg {
       .line--1,
       .line--3 {
         --offset: -94.1149185097;
