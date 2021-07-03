@@ -119,7 +119,10 @@
 
   // search
   &-search {
-    width: 300px;
+    width: 100%;
+    @include media-breakpoint-up(sm) {
+      width: 300px;
+    }
   }
 
   // personal menu

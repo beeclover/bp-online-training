@@ -2,7 +2,9 @@
   --paddingX: 20px;
   --icon-width: 20px;
   position: relative;
-  max-width: 300px;
+  @include media-breakpoint-up(sm) {
+    max-width: 300px;
+  }
   &-submit {
     background-color: transparent;
     box-shadow: none;
@@ -30,7 +32,10 @@
     transition: border-color 0.2s;
     color: var(--text4);
     &::placeholder {
-      color: var(--text0);
+      color: transparent;
+      @include media-breakpoint-up(sm) {
+        color: var(--text0);
+      }
     }
     &:focus,
     &:valid {
