@@ -82,6 +82,7 @@
           align-items: center;
           justify-content: space-between;
           color: var(--text4);
+          border-bottom: 1px solid var(--super-silver);
 
           &:not(:last-child) {
             margin-bottom: 24px;

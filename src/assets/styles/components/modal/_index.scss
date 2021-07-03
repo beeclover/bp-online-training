@@ -1,6 +1,13 @@
 @use '../../components/accordion';
 
 .modal {
+  &-global {
+    &:not(.onTop):not(.onPin):not(.unTop.unBottom),
+    &.unPin {
+      --barTopHeight: 0px;
+      --barHeight: calc(var(--barGnbHeight) + var(--barTopHeight));
+    }
+  }
   &-dialog {
     max-width: 570px;
   }
