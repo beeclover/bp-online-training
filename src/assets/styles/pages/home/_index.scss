@@ -3,15 +3,25 @@
 
   @mixin title {
     font-weight: 300;
-    font-size: 40px;
-    strong {
-      font-size: 48px;
+    font-size: 18px;
+    @include media-breakpoint-up(sm) {
+      font-size: 40px;
+    }
+    strong,
+    b {
+      font-size: 32px;
+      @include media-breakpoint-up(sm) {
+        font-size: 48px;
+      }
     }
   }
 
   // 섹션 공용
   .section {
-    margin-bottom: 120px;
+    margin-bottom: 60px;
+    @include media-breakpoint-up(sm) {
+      margin-bottom: 120px;
+    }
   }
   // section
   .hero {

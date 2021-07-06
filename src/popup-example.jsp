@@ -4,21 +4,6 @@
 <%!
   String route = "";
 %>
-<style>
-  main {
-    min-height: calc(100vh - var(--barHeight) - 274px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  main .container {
-    display: flex;
-    gap: 8px;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-</style>
 <body>
 <main>
   <div class="container">
@@ -42,3 +27,18 @@
   </div>
 </main>
 <%@ include file="views/layouts/body-close.jsp" %>
+<style>
+  main {
+    min-height: calc(100vh - var(--barHeight) - 274px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main .container {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+</style>
