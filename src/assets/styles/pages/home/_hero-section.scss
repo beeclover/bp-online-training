@@ -1,6 +1,8 @@
 @at-root {
   #{$gp} {
-    --heroImgW: 820px;
+    @include media-breakpoint-up(lg) {
+      --heroImgW: 820px;
+    }
   }
 }
 

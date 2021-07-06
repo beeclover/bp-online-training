@@ -109,9 +109,9 @@
     </div>
   </div>
   <div class="section s2">
-    <div class="container section2-container">
+    <div class="container s2-container">
       <div class="row">
-        <div class="col main">
+        <div class="col-12 col-md main">
           <h1 class="main-title">
             빌딩캠퍼스에서 제안하는<br/>
             <strong>이달의 추천 Class</strong>
@@ -146,7 +146,7 @@
             <a class="class-readmore btn" href="#">커리큘럼 확인하기</a>
           </div>
         </div>
-        <div class="col video">
+        <div class="col-12 col-md video">
           <div class="video-wrap">
             <div class="video-overlay">
               <div class="video-overlay-control">

@@ -1,9 +1,12 @@
 & {
   overflow: hidden;
+  position: relative;
 }
 
 .main {
-  max-width: 420px;
+  @include media-breakpoint-up(md) {
+    max-width: 440px;
+  }
   &-title {
     @include title;
     position: relative;
@@ -11,19 +14,27 @@
     padding-bottom: 67px;
     margin-top: 0;
     color: var(--invert-text0);
+    margin-bottom: 56.25vw;
+    @include media-breakpoint-up(md) {
+      margin-bottom: 0;
+    }
 
     &:after {
-      --x: calc(-100% + var(--heroImgW));
       content: '';
       display: block;
       position: absolute;
-      width: 100vw;
+      width: calc(100vw + 2px);
       height: 100%;
-      left: 0;
       top: 0;
       z-index: -1;
-      transform: translate(var(--x), 0);
+      left: 50%;
+      transform: translateX(-50%);
       background-color: var(--theatre-blue);
+      @include media-breakpoint-up(lg) {
+        --x: calc(-100% + var(--heroImgW, 0px));
+        transform: translate(var(--x), 0);
+        left: 0;
+      }
     }
   }
 }
@@ -33,6 +44,9 @@
     font-size: 18px;
     margin-top: 30px;
     margin-bottom: 30px;
+    @include media-breakpoint-down(md) {
+      padding-top: 28px;
+    }
     .rating-star {
       font-size: 24px;
       margin-bottom: 40px;
@@ -63,6 +77,18 @@
 .video {
   display: flex;
   align-items: flex-end;
+  @include media-breakpoint-down(md) {
+    position: absolute;
+    left: 50%;
+    top: 238px;
+    transform: translateX(calc(-50% - 2px));
+    padding: 0;
+    width: calc(100vw + 4px);
+    max-width: none;
+  }
+  @include media-breakpoint-down(sm) {
+    top: 192px;
+  }
   video {
     max-width: 100%;
     margin-bottom: 0;
