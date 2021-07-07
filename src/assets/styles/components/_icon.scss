@@ -12,17 +12,20 @@ $iconSize: "[class*='icon']:not(.icon-label):not(.icon-wrap)";
   &-wrap {
     display: flex;
     align-items: center;
+    --gap: 1px;
+    @include media-breakpoint-up(sm) {
+      --gap: 8px;
+    }
     @supports (gap: 8px) {
-      gap: 8px;
+      gap: var(--gap);
     }
     @supports not (gap: 8px) {
       > *:nth-child(1) {
-        margin-right: 8px;
+        margin-right: var(--gap);
       }
     }
   }
   &-label {
-    margin-top: 3px;
     line-height: 1.6;
   }
 

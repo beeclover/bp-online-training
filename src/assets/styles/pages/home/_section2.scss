@@ -70,7 +70,12 @@
     border-radius: 0;
     color: var(--invert-text0);
     padding: 20px 78px;
-    font-size: 20px;
+    font-size: 18px;
+    width: 100%;
+    @include media-breakpoint-up(sm) {
+      font-size: 20px;
+      width: auto;
+    }
   }
 }
 

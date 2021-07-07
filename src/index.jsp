@@ -174,13 +174,13 @@
   <div class="section section3 s3">
     <div class="container s3-container">
       <div class="row">
-        <div class="col">
+        <div class="col-12 col-md">
           <h1 class="s3-title">
             스케치업<br/>
             <b>클래스 리스트</b>
           </h1>
         </div>
-        <div class="col s3-levels">
+        <div class="col-12 col-md  s3-levels">
           <ul class="nav nav-pills" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
               <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#level-1" type="button" role="tab" aria-controls="level-1" data-level="1" aria-selected="true">
@@ -215,7 +215,7 @@
       <div class="tab-content" id="pills-tabContent">
         <div class="tab-pane fade show active" id="level-1" role="tabpanel" aria-labelledby="level-1-tab">
           <div class="row s3-product">
-            <div class="col-4">
+            <div class="col-12 col-sm-4">
               <div class="card-product">
                 <div class="card-product-thumbnail">
                   <img src="https://picsum.photos/400" alt="">
@@ -245,7 +245,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-4">
               <div class="card-product">
                 <div class="card-product-thumbnail">
                   <img src="https://picsum.photos/400?random=2" alt="">
@@ -274,7 +274,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-4">
               <div class="card-product">
                 <div class="card-product-thumbnail">
                   <img src="https://picsum.photos/400?random=3" alt="">
@@ -304,7 +304,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-4">
               <div class="card-product">
                 <div class="card-product-thumbnail">
                   <img src="https://picsum.photos/400?random=4" alt="">
@@ -334,7 +334,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-4">
               <div class="card-product">
                 <div class="card-product-thumbnail">
                   <img src="https://picsum.photos/400?random=5" alt="">
@@ -364,7 +364,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-4">
               <div class="card-product">
                 <div class="card-product-thumbnail">
                   <img src="https://picsum.photos/400?random=6" alt="">
@@ -398,7 +398,7 @@
         </div>
         <div class="tab-pane fade" id="level-2" role="tabpanel" aria-labelledby="level-2-tab">
           <div class="row s3-product">
-            <div class="col-4">
+            <div class="col-12 col-sm-4">
               <div class="card-product">
                 <div class="card-product-thumbnail">
                   <img src="https://picsum.photos/400?random=7" alt="">
@@ -428,7 +428,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-4">
               <div class="card-product">
                 <div class="card-product-thumbnail">
                   <img src="https://picsum.photos/400?random=8" alt="">
@@ -457,7 +457,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-4">
               <div class="card-product">
                 <div class="card-product-thumbnail">
                   <img src="https://picsum.photos/400?random=9" alt="">
@@ -487,7 +487,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-4">
               <div class="card-product">
                 <div class="card-product-thumbnail">
                   <img src="https://picsum.photos/400?random=10" alt="">
@@ -517,7 +517,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-4">
               <div class="card-product">
                 <div class="card-product-thumbnail">
                   <img src="https://picsum.photos/400?random=11" alt="">
@@ -547,7 +547,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-4">
               <div class="card-product">
                 <div class="card-product-thumbnail">
                   <img src="https://picsum.photos/400?random=12" alt="">
@@ -581,7 +581,7 @@
         </div>
         <div class="tab-pane fade" id="level-3" role="tabpanel" aria-labelledby="level-3-tab">
           <div class="row s3-product">
-            <div class="col-4">
+            <div class="col-12 col-sm-4">
               <div class="card-product">
                 <div class="card-product-thumbnail">
                   <img src="https://picsum.photos/400?random=13" alt="">
@@ -611,7 +611,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-4">
               <div class="card-product">
                 <div class="card-product-thumbnail">
                   <img src="https://picsum.photos/400?random=14" alt="">
@@ -640,7 +640,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-4">
               <div class="card-product">
                 <div class="card-product-thumbnail">
                   <img src="https://picsum.photos/400?random=15" alt="">
@@ -670,7 +670,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-4">
               <div class="card-product">
                 <div class="card-product-thumbnail">
                   <img src="https://picsum.photos/400?random=16" alt="">
@@ -700,7 +700,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-4">
               <div class="card-product">
                 <div class="card-product-thumbnail">
                   <img src="https://picsum.photos/400?random=17" alt="">
@@ -730,7 +730,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-sm-4">
               <div class="card-product">
                 <div class="card-product-thumbnail">
                   <img src="https://picsum.photos/400?random=18" alt="">
