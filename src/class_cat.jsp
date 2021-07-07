@@ -106,28 +106,40 @@
                     </div>
                     <ul class="accordion-body-list">
                       <li class="accordion-body-list-item done">
-                        <span class="title">Getting Started</span>
-                        <a class="link" href="#">다시보기</a>
+                        <div class="accordion-body-list-item-header">
+                          <span class="title">Getting Started</span>
+                          <a class="link" href="#">다시보기</a>
+                        </div>
                       </li>
                       <li class="accordion-body-list-item done">
-                        <span class="title">Creating New Document</span>
-                        <a class="link" href="#">다시보기</a>
+                        <div class="accordion-body-list-item-header">
+                          <span class="title">Creating New Document</span>
+                          <a class="link" href="#">다시보기</a>
+                        </div>
                       </li>
                       <li class="accordion-body-list-item done">
-                        <span class="title">Prepferencrs Overview</span>
-                        <a class="link" href="#">다시보기</a>
+                        <div class="accordion-body-list-item-header">
+                          <span class="title">Prepferencrs Overview</span>
+                          <a class="link" href="#">다시보기</a>
+                        </div>
                       </li>
                       <li class="accordion-body-list-item current">
-                        <span class="title">Document Setup &Customization</span>
-                        <a class="link" href="#">강의보기</a>
+                        <div class="accordion-body-list-item-header">
+                          <span class="title">Document Setup &Customization</span>
+                          <a class="link" href="#">강의보기</a>
+                        </div>
                       </li>
                       <li class="accordion-body-list-item">
-                        <span class="title">Document Navigation</span>
-                        <a class="link" href="#">강의보기</a>
+                        <div class="accordion-body-list-item-header">
+                          <span class="title">Document Navigation</span>
+                          <a class="link" href="#">강의보기</a>
+                        </div>
                       </li>
                       <li class="accordion-body-list-item">
-                        <span class="title">Course 1 review Quiz</span>
-                        <a class="link" href="#">강의보기</a>
+                        <div class="accordion-body-list-item-header">
+                          <span class="title">Course 1 review Quiz</span>
+                          <a class="link" href="#">강의보기</a>
+                        </div>
                       </li>
                     </ul>
                   </div>
@@ -155,28 +167,40 @@
                     </div>
                     <ul class="accordion-body-list">
                       <li class="accordion-body-list-item done">
-                        <span class="title">Getting Started</span>
-                        <a class="link" href="#">다시보기</a>
+                        <div class="accordion-body-list-item-header">
+                          <span class="title">Getting Started</span>
+                          <a class="link" href="#">다시보기</a>
+                        </div>
                       </li>
                       <li class="accordion-body-list-item done">
-                        <span class="title">Creating New Document</span>
-                        <a class="link" href="#">다시보기</a>
+                        <div class="accordion-body-list-item-header">
+                          <span class="title">Creating New Document</span>
+                          <a class="link" href="#">다시보기</a>
+                        </div>
                       </li>
                       <li class="accordion-body-list-item done">
-                        <span class="title">Prepferencrs Overview</span>
-                        <a class="link" href="#">다시보기</a>
+                        <div class="accordion-body-list-item-header">
+                          <span class="title">Prepferencrs Overview</span>
+                          <a class="link" href="#">다시보기</a>
+                        </div>
                       </li>
                       <li class="accordion-body-list-item current">
-                        <span class="title">Document Setup &Customization</span>
-                        <a class="link" href="#">강의보기</a>
+                        <div class="accordion-body-list-item-header">
+                          <span class="title">Document Setup &Customization</span>
+                          <a class="link" href="#">강의보기</a>
+                        </div>
                       </li>
                       <li class="accordion-body-list-item">
-                        <span class="title">Document Navigation</span>
-                        <a class="link" href="#">강의보기</a>
+                        <div class="accordion-body-list-item-header">
+                          <span class="title">Document Navigation</span>
+                          <a class="link" href="#">강의보기</a>
+                        </div>
                       </li>
                       <li class="accordion-body-list-item">
-                        <span class="title">Course 1 review Quiz</span>
-                        <a class="link" href="#">강의보기</a>
+                        <div class="accordion-body-list-item-header">
+                          <span class="title">Course 1 review Quiz</span>
+                          <a class="link" href="#">강의보기</a>
+                        </div>
                       </li>
                     </ul>
                   </div>
@@ -204,28 +228,40 @@
                     </div>
                     <ul class="accordion-body-list">
                       <li class="accordion-body-list-item done">
-                        <span class="title">Getting Started</span>
-                        <a class="link" href="#">다시보기</a>
+                        <div class="accordion-body-list-item-header">
+                          <span class="title">Getting Started</span>
+                          <a class="link" href="#">다시보기</a>
+                        </div>
                       </li>
                       <li class="accordion-body-list-item done">
-                        <span class="title">Creating New Document</span>
-                        <a class="link" href="#">다시보기</a>
+                        <div class="accordion-body-list-item-header">
+                          <span class="title">Creating New Document</span>
+                          <a class="link" href="#">다시보기</a>
+                        </div>
                       </li>
                       <li class="accordion-body-list-item done">
-                        <span class="title">Prepferencrs Overview</span>
-                        <a class="link" href="#">다시보기</a>
+                        <div class="accordion-body-list-item-header">
+                          <span class="title">Prepferencrs Overview</span>
+                          <a class="link" href="#">다시보기</a>
+                        </div>
                       </li>
                       <li class="accordion-body-list-item current">
-                        <span class="title">Document Setup &Customization</span>
-                        <a class="link" href="#">강의보기</a>
+                        <div class="accordion-body-list-item-header">
+                          <span class="title">Document Setup &Customization</span>
+                          <a class="link" href="#">강의보기</a>
+                        </div>
                       </li>
                       <li class="accordion-body-list-item">
-                        <span class="title">Document Navigation</span>
-                        <a class="link" href="#">강의보기</a>
+                        <div class="accordion-body-list-item-header">
+                          <span class="title">Document Navigation</span>
+                          <a class="link" href="#">강의보기</a>
+                        </div>
                       </li>
                       <li class="accordion-body-list-item">
-                        <span class="title">Course 1 review Quiz</span>
-                        <a class="link" href="#">강의보기</a>
+                        <div class="accordion-body-list-item-header">
+                          <span class="title">Course 1 review Quiz</span>
+                          <a class="link" href="#">강의보기</a>
+                        </div>
                       </li>
                     </ul>
                   </div>
