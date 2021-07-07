@@ -82,7 +82,9 @@
           align-items: center;
           justify-content: space-between;
           color: var(--text4);
-          border-bottom: 1px solid var(--super-silver);
+          @include media-breakpoint-down(sm) {
+            flex-wrap: wrap;
+          }
 
           &:not(:last-child) {
             margin-bottom: 24px;
@@ -283,6 +285,22 @@
     }
     &-body-list-item.current {
       font-weight: normal;
+    }
+  }
+}
+
+@mixin CoverMenu {
+  @include style1;
+  .accordion {
+    &-body {
+      &-list {
+        &-item {
+          border-bottom: 1px solid var(--super-silver);
+        }
+      }
+    }
+    &-item {
+      border-bottom: 1px solid var(--super-silver);
     }
   }
 }

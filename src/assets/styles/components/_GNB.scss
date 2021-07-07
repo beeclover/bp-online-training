@@ -268,7 +268,7 @@
     }
 
     // menu
-    @include accordion.style1;
+    @include accordion.CoverMenu;
     @include accordion.modal;
     .accordion {
       &-header {
@@ -287,7 +287,6 @@
         }
       }
       &-item {
-        border: none;
         &:first-child {
           border-radius: 0;
         }
