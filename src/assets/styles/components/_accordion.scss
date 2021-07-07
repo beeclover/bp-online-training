@@ -54,7 +54,8 @@
           font-size: 18px;
           font-weight: bold;
           line-height: 1;
-          @include textDecoration(var(--bg0), var(--text0), 1px);
+          padding-bottom: 1px;
+          @include textDecoration(var(--bg0), var(--text0));
         }
       }
       &-list {
