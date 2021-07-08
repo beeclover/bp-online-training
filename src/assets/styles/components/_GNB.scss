@@ -254,6 +254,7 @@
     &-modal {
       margin-top: var(--barHeight);
       max-height: calc(100vh - var(--barHeight));
+      padding: 0 !important;
       &-dialog {
         margin: 0;
         max-width: 100%;
@@ -287,6 +288,8 @@
         }
       }
       &-item {
+        border-left: 0;
+        border-right: 0;
         &:first-child {
           border-radius: 0;
         }
