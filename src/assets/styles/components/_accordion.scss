@@ -1,7 +1,10 @@
 @use '../functions/textDecoration' as *;
 @use '../functions/gap' as *;
 @use '../functions/ui' as ui;
-@use '~bootstrap/scss/bootstrap' as *;
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
 // bootstrap accordion
 @mixin style1 {
   .accordion {
