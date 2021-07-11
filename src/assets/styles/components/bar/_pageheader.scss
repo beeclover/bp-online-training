@@ -6,7 +6,9 @@
 
 @mixin bar-pageheader-samll {
   .bar-bg {
-    display: none;
+    @include media-breakpoint-up(sm) {
+      display: none;
+    }
   }
   .bar-breadcrumbs {
     display: none;

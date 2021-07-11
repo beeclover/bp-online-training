@@ -111,30 +111,53 @@
 
 @mixin bar-class-small {
   & + main.class.cat {
-    --barPageheaderHight: 56px;
+    --barPageheaderHight: 80px;
+    @include media-breakpoint-up(sm) {
+      --barPageheaderHight: 56px;
+    }
   }
   .bar-bg {
-    display: none;
+    @include media-breakpoint-up(sm) {
+      display: none;
+    }
   }
   .bar-classCat {
-    --barPageheaderHight: 56px;
-    background-color: var(--theatre-blue);
+    --barPageheaderHight: 80px;
+    @include media-breakpoint-up(sm) {
+      --barPageheaderHight: 56px;
+      background-color: var(--theatre-blue);
+    }
 
     &-container {
       padding-top: 14px;
       padding-bottom: 14px;
+      flex-wrap: nowrap;
+      &-left {
+        margin-bottom: 0;
+      }
     }
     &-title {
       margin-bottom: 0;
-      font-size: 24px;
+      font-size: 16px;
+      font-weight: normal;
+      @include media-breakpoint-up(sm) {
+        font-size: 24px;
+        font-weight: bold;
+      }
     }
     &-info {
       display: none;
     }
     &-btn {
-      font-size: 18px;
+      font-size: 13px;
+      white-space: nowrap;
+      @include media-breakpoint-up(sm) {
+        font-size: 18px;
+      }
       &.review {
-        display: block;
+        @include media-breakpoint-up(sm) {
+          display: block;
+        }
       }
     }
   }
