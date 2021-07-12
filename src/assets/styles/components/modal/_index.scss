@@ -65,4 +65,7 @@
 
   @include accordion.style1;
   @include accordion.modal;
+  &-noti {
+    @import './noti';
+  }
 }
