@@ -11,6 +11,13 @@
         </svg>
       </div>
     </div>
+    <div class="container gnb-overmenu-login off">
+      <div class="gnb-overmenu-login-title">로그인 후 이용해 주세요</div>
+      <div class="gnb-overmenu-login-footer">
+        <a href="#" class="btn border-def">로그인</a>
+        <a href="#" class="c-text4 def">회원가입하기</a>
+      </div>
+    </div>
     <div class="accordion container px-0" id="overmenu">
       <div class="accordion-item current-parent">
         <h2 class="accordion-header" id="overmenu-heading-1">

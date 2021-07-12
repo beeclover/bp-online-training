@@ -7,10 +7,47 @@
   border: none;
 }
 
+&-header {
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-right: 10px;
+
+  .btn-menu {
+    font-size: 44px;
+  }
+  svg {
+    transform: scale(2);
+  }
+}
+
+&-login {
+  padding-bottom: 16px;
+
+  &-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--text0);
+    margin-bottom: 8px;
+  }
+  &-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .btn {
+      padding: 9px 37px 11px;
+    }
+    .def {
+      text-decoration: underline;
+    }
+  }
+}
+
 &-modal {
-  margin-top: var(--barHeight);
-  max-height: calc(100vh - var(--barHeight));
   padding: 0 !important;
+  background-color: var(--bg0);
+
   &-dialog {
     margin: 0;
     max-width: 100%;
