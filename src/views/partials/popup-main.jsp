@@ -10,4 +10,5 @@
   <%@ include file="popup-feedback.jsp" %>
   <%@ include file="popup-shoppingcart.jsp" %>
   <%@ include file="popup-overmenu.jsp" %>
+  <%@ include file="popup-noti.jsp" %>
 </div>

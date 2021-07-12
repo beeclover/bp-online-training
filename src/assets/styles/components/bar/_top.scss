@@ -31,4 +31,22 @@
       --barTopHeight: 0px;
     }
   }
+  &-noti {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    color: var(--invert-text0);
+    svg {
+      fill: currentColor;
+    }
+    .bell {
+      opacity: 0;
+      transition: opacity 0.3s;
+      stroke: var(--blue-ruin);
+    }
+    &.on .bell {
+      opacity: 1;
+    }
+  }
 }

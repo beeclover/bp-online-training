@@ -51,7 +51,7 @@
         </g>
       </svg>
     </div>
-    <div class="logo-SU">
+    <div class="logo-SU d-none d-sm-block">
       <svg xmlns="http://www.w3.org/2000/svg" width="110" height="24" viewBox="0 0 110 24">
         <g transform="translate(-1470 -14)">
           <g transform="translate(1470.993 15)">
@@ -94,6 +94,23 @@
           </g>
         </g>
       </svg>
+    </div>
+    <div class="bar-container-right d-block d-sm-none">
+      <%--
+        button
+        on이라는 클래스가 추가되면 on 모습으로 변경됩니다.
+        <button class="... on">
+      --%>
+      <button class="bar-top-noti disable_arrow p-0" type="button"id="notimodal-btn" data-bs-toggle="modal" data-bs-target="#notiModal">
+        <svg xmlns="http://www.w3.org/2000/svg" id="icon24_AR1" width="24" height="24" viewBox="0 0 24 24">
+          <g transform="translate(1.182)">
+            <path d="M761.9 494.42a2.881 2.881 0 0 0 2.882-2.881h-5.763a2.881 2.881 0 0 0 2.881 2.881z" transform="translate(-751.079 -470.42)"/>
+            <path d="M752.434 435.235a12 12 0 0 0-3.238-4.073v-4.809a4.8 4.8 0 0 1-5.1-7.618 2.422 2.422 0 0 0-4.8.2 7.5 7.5 0 0 0-5.07 7.083v5.141a12.01 12.01 0 0 0-3.238 4.073.949.949 0 0 0 .854 1.363h19.738a.948.948 0 0 0 .854-1.363z" transform="translate(-730.894 -416.709)"/>
+            <path d="M730.989 435.235a12 12 0 0 1 3.238-4.073v-4.809a4.8 4.8 0 0 0 5.1-7.618 2.422 2.422 0 0 1 4.8.2 7.5 7.5 0 0 1 5.07 7.083v5.141a12.01 12.01 0 0 1 3.238 4.073.949.949 0 0 1-.854 1.363h-19.738a.948.948 0 0 1-.854-1.363z" transform="translate(-730.894 -416.709)"/>
+            <path class="bell" stroke-width="1" d="M781.639 428.9a3.661 3.661 0 1 0-3.661-3.661 3.661 3.661 0 0 0 3.661 3.661z" transform="translate(-764.69 -420.202)"/>
+          </g>
+        </svg>
+      </button>
     </div>
   </div>
   <%@ include file="bar-main.jsp" %>
