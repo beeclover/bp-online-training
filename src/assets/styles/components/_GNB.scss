@@ -157,12 +157,14 @@
       svg {
         fill: #615b5f;
       }
-      .bell {
-        opacity: 0;
-        transition: opacity 0.3s;
-      }
-      &.on .bell {
-        opacity: 1;
+      button {
+        .bell {
+          opacity: 0;
+          transition: opacity 0.3s;
+        }
+        &.on .bell {
+          opacity: 1;
+        }
       }
       .noti {
         &-submenu {

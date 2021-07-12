@@ -84,6 +84,11 @@
       </div>
       <ul class="gnb-personal">
         <li class="gnb-personal-item gnb-personal-noti">
+          <%--
+            button
+            on이라는 클래스가 추가되면 on 모습으로 변경됩니다.
+            <button class="... on">
+          --%>
           <button class="gnb-menu-item gnb-submenu-btn disable_arrow p-0" type="button" id="notiDropdown" data-bs-toggle="dropdown"
             aria-expanded="false">
             <svg xmlns="http://www.w3.org/2000/svg" id="icon24_AR1" width="24" height="24" viewBox="0 0 24 24">
