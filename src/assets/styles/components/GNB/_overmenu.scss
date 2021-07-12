@@ -42,6 +42,23 @@
       text-decoration: underline;
     }
   }
+  .card-user {
+    @include gap(12px);
+    &-name {
+      font-size: 18px;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+    &-thumbnail {
+      &:after {
+        content: none;
+      }
+      .imgWrap {
+        width: 80px;
+        height: 80px;
+      }
+    }
+  }
 }
 
 &-modal {

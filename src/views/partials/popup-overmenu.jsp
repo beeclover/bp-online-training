@@ -18,6 +18,26 @@
         <a href="#" class="c-text4 def">회원가입하기</a>
       </div>
     </div>
+    <div class="container gnb-overmenu-login on">
+      <div class="card-user">
+        <div class="card-user-header">
+          <div class="card-user-thumbnail">
+            <div class="imgWrap">
+              <img src="https://picsum.photos/200" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="card-user-body w-100">
+          <div class="card-user-name">
+            빌딩캠퍼스
+          </div>
+          <div class="card-user-edit d-flex justify-content-between align-items-center">
+            <a href="#" class="btn">수강중인 클래스 보기</a>
+            <a href="javascript:;" class="c-text4 def">로그아웃</a>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="accordion container px-0" id="overmenu">
       <div class="accordion-item current-parent">
         <h2 class="accordion-header" id="overmenu-heading-1">
