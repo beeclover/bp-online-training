@@ -1,6 +1,12 @@
 .home {
   $gp: &;
 
+  @include media-breakpoint-down(sm) {
+    main {
+      margin-top: var(--barTopHeight);
+    }
+  }
+
   @mixin title {
     font-weight: 300;
     font-size: 18px;

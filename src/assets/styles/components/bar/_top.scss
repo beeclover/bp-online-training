@@ -1,8 +1,8 @@
 @at-root {
   :root {
-    --barTopHeight: 44px;
-    @include media-breakpoint-up(xs) {
-      --barTopHeight: 40px;
+    --barTopHeight: 52px;
+    @include media-breakpoint-up(sm) {
+      --barTopHeight: 44px;
     }
   }
 }
@@ -62,5 +62,16 @@
     display: flex;
     align-items: center;
     @include gap(12px, x);
+  }
+  .bar-container-left {
+    font-size: 24px;
+    color: var(--invert-text0);
+    svg {
+      transform: scale(3);
+    }
+  }
+  .logo-BC {
+    display: flex;
+    @include gap(16px, x);
   }
 }

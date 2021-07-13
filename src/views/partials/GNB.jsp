@@ -1,5 +1,5 @@
 <%@ pagepageEncoding="UTF-8" contentType="text/html;charset=UTF-8"%>
-<div class="gnb">
+<div class="gnb d-none d-sm-block">
   <div class="container gnb-container">
     <div class="gnb-container-left">
       <ul class="gnb-menu d-none d-xl-flex">

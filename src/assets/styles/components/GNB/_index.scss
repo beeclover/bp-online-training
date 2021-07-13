@@ -1,6 +1,6 @@
 @at-root {
   :root {
-    --barGnbHeight: 60px;
+    --barGnbHeight: 52px;
     @include media-breakpoint-up(sm) {
       --barGnbHeight: 85px;
     }
