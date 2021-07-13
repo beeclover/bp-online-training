@@ -182,3 +182,11 @@
     </div>
   </div>
 </div>
+<div class="gnb-pageheader d-sm-none">
+  <div class="container gnb-pageheader-container">
+    <button type="button" class="btn-pre" data-bs-dismiss="modal" aria-label="Close"></button>
+    <div class="gnb-pageheader-title">
+      페이지 이름
+    </div>
+  </div>
+</div>

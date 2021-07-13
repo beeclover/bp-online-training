@@ -5,6 +5,9 @@
     main {
       margin-top: var(--barTopHeight);
     }
+    .gnb-pageheader {
+      display: none;
+    }
   }
 
   @mixin title {

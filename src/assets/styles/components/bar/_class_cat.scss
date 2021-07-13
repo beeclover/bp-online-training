@@ -151,6 +151,7 @@
     &-btn {
       font-size: 13px;
       white-space: nowrap;
+      padding: 10px 20px;
       @include media-breakpoint-up(sm) {
         font-size: 18px;
       }

@@ -1,0 +1,23 @@
+& {
+  &-container {
+    height: var(--barGnbHeight);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--text1);
+  }
+
+  .btn-pre {
+    position: absolute;
+    left: var(--bs-gutter-x);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+  }
+}
