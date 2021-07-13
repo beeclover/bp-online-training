@@ -66,6 +66,9 @@
   @include accordion.style1;
   @include accordion.modal;
   &-noti {
-    @import './noti';
+    @import 'noti';
+  }
+  &-search {
+    @import 'search';
   }
 }
