@@ -14,7 +14,7 @@
   }
   path {
     fill: none;
-    stroke: #615b5f;
+    stroke: currentColor;
     stroke-width: 3;
     stroke-linecap: round;
     stroke-linejoin: round;
@@ -26,7 +26,7 @@
   }
 
   circle {
-    fill: #fff3;
+    fill: currentColor;
     opacity: 0;
   }
 
