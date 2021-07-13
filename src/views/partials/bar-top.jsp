@@ -95,13 +95,14 @@
         </g>
       </svg>
     </div>
-    <div class="bar-container-right d-block d-sm-none">
+    <div class="bar-container-right d-sm-none">
+      <button type="button" class="bar-top-search btn-search white" id="searchModal-btn" data-bs-toggle="modal" data-bs-target="#searchModal"></button>
       <%--
         button
         on이라는 클래스가 추가되면 on 모습으로 변경됩니다.
         <button class="... on">
       --%>
-      <button class="bar-top-noti disable_arrow p-0" type="button"id="notimodal-btn" data-bs-toggle="modal" data-bs-target="#notiModal">
+      <button class="bar-top-noti disable_arrow p-0" type="button" id="notimodal-btn" data-bs-toggle="modal" data-bs-target="#notiModal">
         <svg xmlns="http://www.w3.org/2000/svg" id="icon24_AR1" width="24" height="24" viewBox="0 0 24 24">
           <g transform="translate(1.182)">
             <path d="M761.9 494.42a2.881 2.881 0 0 0 2.882-2.881h-5.763a2.881 2.881 0 0 0 2.881 2.881z" transform="translate(-751.079 -470.42)"/>

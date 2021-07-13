@@ -19,7 +19,7 @@
     fill: #fff;
     width: auto;
     @include media-breakpoint-up(xs) {
-      height: 20px;
+      height: 24px;
     }
   }
   &:not(.headroom--top) {
@@ -37,7 +37,8 @@
     box-shadow: none;
     outline: none;
     color: var(--invert-text0);
-    height: 20px;
+    height: 24px;
+    line-height: 0;
 
     svg {
       fill: currentColor;
@@ -52,5 +53,14 @@
     &.on .bell {
       opacity: 1;
     }
+  }
+  &-search {
+    font-size: 24px;
+  }
+
+  .bar-container-right {
+    display: flex;
+    align-items: center;
+    @include gap(12px, x);
   }
 }
