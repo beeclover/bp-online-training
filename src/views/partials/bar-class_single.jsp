@@ -13,7 +13,8 @@
     </div>
     <a href="#" class="bar-classSingle-container-right">
       <div class="bar-classSingle-next">다음 레슨</div>
-      <h1 class="bar-classSingle-title fw-light">내벽 만들기</h1>
+      <h1 class="bar-classSingle-title fw-light d-none d-sm-block">내벽 만들기</h1>
+      <div class="arrow d-block d-sm-none"></div>
     </a>
   </div>
 </div>
