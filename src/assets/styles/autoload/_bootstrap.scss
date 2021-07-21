@@ -11,7 +11,7 @@
   &-lg,
   &-md,
   &-sm {
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(lg) {
       --bs-gutter-x: 20px;
     }
   }
