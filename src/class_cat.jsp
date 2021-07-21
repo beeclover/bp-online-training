@@ -285,7 +285,7 @@
         </div>
       </div>
       <div class="row class-review">
-        <div class="col-12 col-lg-6 col-xl-4 class-review-item">
+        <div class="col-12 col-md-6 col-xl-4 class-review-item">
           <div class="card-review">
             <div class="card-review-header">
               <div class="card-review-thumbnail">
@@ -306,7 +306,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-6 col-xl-4 class-review-item">
+        <div class="col-12 col-md-6 col-xl-4 class-review-item">
           <div class="card-review">
             <div class="card-review-header">
               <div class="card-review-thumbnail">
@@ -326,7 +326,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-6 col-xl-4 class-review-item">
+        <div class="col-12 col-md-6 col-xl-4 class-review-item">
           <div class="card-review">
             <div class="card-review-header">
               <div class="card-review-thumbnail">
@@ -346,7 +346,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-6 col-xl-4 class-review-item">
+        <div class="col-12 col-md-6 col-xl-4 class-review-item">
           <div class="card-review">
             <div class="card-review-header">
               <div class="card-review-thumbnail">
@@ -366,7 +366,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-6 col-xl-4 class-review-item">
+        <div class="col-12 col-md-6 col-xl-4 class-review-item">
           <div class="card-review">
             <div class="card-review-header">
               <div class="card-review-thumbnail">
@@ -387,7 +387,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-6 col-xl-4 class-review-item">
+        <div class="col-12 col-md-6 col-xl-4 class-review-item">
           <div class="card-review">
             <div class="card-review-header">
               <div class="card-review-thumbnail">

@@ -86,14 +86,21 @@
 
       &-item {
         display: flex;
-        align-items: center;
         padding-left: 4px;
-
-        flex-wrap: wrap;
+        flex-direction: column;
         @include gap(12px, y);
 
         @include media-breakpoint-up(sm) {
-          flex-wrap: nowrap;
+          flex-direction: row;
+          align-items: center;
+        }
+        @include media-breakpoint-up(md) {
+          flex-direction: column;
+          align-items: unset;
+        }
+        @include media-breakpoint-up(lg) {
+          flex-direction: row;
+          align-items: center;
           @include gap(28px, x);
         }
 
@@ -119,13 +126,16 @@
 
       #{$iconSize} {
         font-size: 24px;
-        @include media-breakpoint-up(sm) {
+        @include media-breakpoint-up(lg) {
           font-size: 32px;
         }
       }
       .icon-label {
         font-size: 14px;
-        @include media-breakpoint-up(sm) {
+        @include media-breakpoint-up(md) {
+          font-size: 16px;
+        }
+        @include media-breakpoint-up(lg) {
           font-size: 20px;
         }
       }
@@ -160,6 +170,10 @@
 
     &-item {
       padding-bottom: 32px;
+    }
+
+    .card-review {
+      height: 100%;
     }
   }
 }

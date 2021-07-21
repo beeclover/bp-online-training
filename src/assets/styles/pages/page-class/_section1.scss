@@ -5,14 +5,17 @@
 }
 
 &-row {
-  --bs-gutter-x: 60px;
+  --bs-gutter-x: 30px;
+  @include media-breakpoint-up(xl) {
+    --bs-gutter-x: 60px;
+  }
 }
 &-col {
   &-left {
     max-width: calc(520px + var(--bs-gutter-x));
     width: 100%;
     margin-bottom: 60px;
-    @include media-breakpoint-up(sm) {
+    @include media-breakpoint-up(lg) {
       margin-bottom: 0;
     }
   }
