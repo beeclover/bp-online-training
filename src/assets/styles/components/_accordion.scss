@@ -185,13 +185,18 @@
             margin-top: 24px;
             margin-bottom: 24px;
 
-            @include media-breakpoint-up(sm) {
+            @include media-breakpoint-up(md) {
               width: 100%;
               margin: 0;
               position: absolute;
               top: 50%;
-              left: 50%;
-              transform: translate(-50%, -50%);
+              right: 200px;
+              transform: translateY(-50%);
+              max-width: 150px;
+            }
+
+            @include media-breakpoint-up(lg) {
+              max-width: 400px;
             }
 
             &:after {
@@ -253,6 +258,10 @@
       @include gap(16px);
       @include media-breakpoint-up(sm) {
         @include gap(20px);
+        flex-direction: column;
+      }
+      @include media-breakpoint-up(lg) {
+        flex-direction: row;
       }
 
       &-content {
@@ -261,6 +270,10 @@
         align-items: center;
         flex-wrap: wrap;
         justify-content: space-between;
+        @include gap(17px);
+        @include media-breakpoint-up(sm) {
+          @include gap(20px);
+        }
 
         .btn {
           font-size: 18px;
@@ -276,9 +289,20 @@
       }
 
       &-thumbnail {
+        @include media-breakpoint-up(sm) {
+          width: 100%;
+        }
+        @include media-breakpoint-up(lg) {
+          width: auto;
+        }
         img {
           height: 76px;
           @include media-breakpoint-up(sm) {
+            height: auto;
+            width: 100%;
+          }
+          @include media-breakpoint-up(lg) {
+            width: auto;
             height: 100px;
           }
         }
@@ -287,10 +311,13 @@
         font-size: 20px;
         color: var(--text1);
         font-weight: bold;
-        margin-bottom: 17px;
-        @include media-breakpoint-up(sm) {
+        margin-bottom: 0;
+        margin-top: 0;
+        @include media-breakpoint-up(md) {
           font-size: 2.5rem;
           margin-bottom: 0;
+        }
+        @include media-breakpoint-up(lg) {
           @include textDecoration(var(--bg0), currentColor);
         }
       }

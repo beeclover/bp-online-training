@@ -2,7 +2,7 @@
 <div class="bar-account">
   <div class="container bar-account-container">
     <div class="row bar-account-infoRow">
-      <div class="col-12 col-md-5 bar-account-infoCol left">
+      <div class="col-12 col-lg-5 bar-account-infoCol left">
         <div class="card-user">
           <div class="card-user-header">
             <div class="card-user-thumbnail">
@@ -24,7 +24,7 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-7 bar-account-infoCol right education">
+      <div class="col-12 col-lg-7 bar-account-infoCol right education">
         <div class="education-status">
           <div class="icon-wrap">
             <div class="icon-calendar"></div>
