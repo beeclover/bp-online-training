@@ -2,6 +2,9 @@
   .page-classSingle {
     --barPageheaderHight: 160px;
     @include media-breakpoint-up(sm) {
+      --barPageheaderHight: 120px;
+    }
+    @include media-breakpoint-up(lg) {
       --barPageheaderHight: 200px;
     }
   }
@@ -18,7 +21,7 @@
     @include media-breakpoint-down(sm) {
       padding-right: 0;
     }
-    @include media-breakpoint-up(sm) {
+    @include media-breakpoint-up(lg) {
       padding-top: 20px;
       padding-bottom: 20px;
     }
@@ -72,7 +75,7 @@
     color: currentColor;
     font-size: 24px;
     margin-top: 4px;
-    @include media-breakpoint-up(sm) {
+    @include media-breakpoint-up(lg) {
       margin-top: 14px;
       font-size: 3.5rem;
     }
