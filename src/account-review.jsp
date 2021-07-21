@@ -22,6 +22,7 @@
                 두 번 완강했어요. 정말 알차고 배운 것이 많은 강의들입니다. 정성을 다해 열강해주신 해빈 강님께 감사드려요~! 두 번 완강했어요. 
                 정말 알차고 배운 것이  많은 강의들입니다. 정성을 다해 열강해주신 해빈 강님께 감사드려요~!
               </p>
+              <div class="review-item-date">2021-04-29 00:40:38</div>
             </div>
             <div class="review-item-tool">
               <a href="#" class="icon-wrap btn tool">
@@ -34,7 +35,6 @@
               </a>
             </div>
           </div>
-          <div class="review-item-date">2021-04-29 00:40:38</div>
         </li>
         <li class="review-item">
           <div class="review-item-row">
@@ -45,6 +45,7 @@
                 두 번 완강했어요. 정말 알차고 배운 것이 많은 강의들입니다. 정성을 다해 열강해주신 해빈 강님께 감사드려요~! 두 번 완강했어요. 
                 정말 알차고 배운 것이  많은 강의들입니다. 정성을 다해 열강해주신 해빈 강님께 감사드려요~!
               </p>
+              <div class="review-item-date">2021-04-29 00:40:38</div>
             </div>
             <div class="review-item-tool">
               <a href="#" class="icon-wrap btn tool">
@@ -57,7 +58,6 @@
               </a>
             </div>
           </div>
-          <div class="review-item-date">2021-04-29 00:40:38</div>
         </li>
       </ul>
     </div>
