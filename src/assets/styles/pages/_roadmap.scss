@@ -19,7 +19,7 @@ svg.simple-flow-line {
   }
   &-left {
     display: none;
-    @include media-breakpoint-up(sm) {
+    @include media-breakpoint-up(xl) {
       display: flex;
       flex-direction: column;
     }
@@ -29,6 +29,13 @@ svg.simple-flow-line {
     > [class*='col'] {
       display: flex;
       flex-direction: column;
+    }
+  }
+  [data-link='key-11'],
+  [data-link='key-10'] {
+    visibility: hidden;
+    @include media-breakpoint-up(xl) {
+      visibility: visible;
     }
   }
 }

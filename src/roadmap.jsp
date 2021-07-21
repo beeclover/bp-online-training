@@ -45,7 +45,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-9">
+        <div class="col-12 col-xl-9">
           <div class="row roadmap-row">
             <div class="col-12">
               <div class="card-roadmap-wrap">
@@ -55,7 +55,7 @@
               </div>
             </div>
           </div>
-          <div class="row roadmap-row d-block d-sm-none">
+          <div class="row roadmap-row d-block d-xl-none">
             <div class="col-12">
               <div class="card-roadmap-wrap">
                 <div id="object" class="card-roadmap-rowHeader row2">
@@ -69,7 +69,7 @@
             </div>
           </div>
           <div class="row roadmap-row">
-            <div class="col-6 col-sm-4">
+            <div class="col-6 col-xl-4">
               <div class="card-roadmap-wrap">
                 <a href="#" id="object" class="card-roadmap" data-key-1 data-key-3>
                   <span>기초 과정</span>
@@ -77,7 +77,7 @@
                 </a>
               </div>
             </div>
-            <div class="col-6 col-sm-4">
+            <div class="col-6 col-xl-4">
               <div class="card-roadmap-wrap">
                 <a href="#" id="object" class="card-roadmap" data-key-2 data-key-4>
                   <span>기초 과정</span>
@@ -87,7 +87,7 @@
             </div>
           </div>
           <div class="row roadmap-row">
-            <div class="col-6 col-sm-4">
+            <div class="col-6 col-xl-4">
               <div class="card-roadmap-wrap">
                 <a href="#" id="object" class="card-roadmap" data-key-3 data-key-4 data-key-5 data-key-6 data-key-7>
                   <span>쉽게 따라하는</span>
@@ -96,7 +96,7 @@
               </div>
             </div>
           </div>
-          <div class="row roadmap-row d-block d-sm-none">
+          <div class="row roadmap-row d-block d-xl-none">
             <div class="col-12">
               <div class="card-roadmap-wrap">
                 <div id="object" class="card-roadmap-rowHeader row2">
@@ -132,7 +132,7 @@
               </div>
             </div>
           </div>
-          <div class="row roadmap-row d-block d-sm-none">
+          <div class="row roadmap-row d-block d-xl-none">
             <div class="col-12">
               <div class="card-roadmap-wrap">
                 <div id="object" class="card-roadmap-rowHeader row2">
