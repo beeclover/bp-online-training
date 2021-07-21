@@ -1,0 +1,93 @@
+&-roadmap {
+  &-wrap {
+    --cardHeight: 120px;
+    --space: 40px;
+    @include media-breakpoint-up(sm) {
+      --cardHeight: 160px;
+      --space: 100px;
+    }
+  }
+  background-color: var(--bg0);
+  height: var(--cardHeight);
+  width: 100%;
+  display: table;
+  margin-bottom: var(--space);
+  border: solid 1px var(--dhusar-grey);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--text1);
+  transition: background-color 0.3s, color 0.3s;
+  text-decoration: none;
+  font-size: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  word-break: keep-all;
+  @include media-breakpoint-up(sm) {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  &:hover {
+    border-color: var(--blue-ruin);
+    background-color: var(--blue-ruin);
+    color: var(--invert-text0);
+  }
+  b {
+    @include media-breakpoint-up(sm) {
+      font-size: 1.1em;
+    }
+  }
+  &-header {
+    height: 72px;
+    color: var(--invert-text0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: var(--space);
+    background-color: var(--black-out);
+    font-size: 24px;
+    &.fullWidth {
+      width: calc(100% + var(--bs-gutter-x));
+      justify-content: flex-start;
+      padding-left: calc(44px + 8px);
+      border-right: 1px solid rgba(var(--RGB-bg0), 0.25);
+    }
+  }
+  &-rowHeader {
+    height: var(--cardHeight);
+    background-color: var(--theatre-blue);
+    border-left: 8px solid var(--blue-ruin);
+    margin-bottom: var(--space);
+    color: var(--invert-text0);
+    display: flex;
+    flex-direction: column;
+    padding: 24px 28px;
+    @include media-breakpoint-up(sm) {
+      padding: 28px 44px;
+    }
+    span {
+      opacity: 0.5;
+      margin-bottom: 8px;
+    }
+    b {
+      font-size: 24px;
+      line-height: 1.2;
+    }
+    br {
+      display: none;
+      @include media-breakpoint-up(sm) {
+        display: block;
+      }
+    }
+    &.row2 {
+      height: auto;
+      @include media-breakpoint-up(sm) {
+        height: calc(var(--cardHeight) * 2 + var(--space));
+      }
+    }
+  }
+}
