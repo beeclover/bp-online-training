@@ -2,10 +2,10 @@
   &-header {
     font-size: 18px;
     margin-bottom: 18px;
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(lg) {
       color: var(--text1);
     }
-    @include media-breakpoint-up(sm) {
+    @include media-breakpoint-up(lg) {
       margin-bottom: 32px;
       text-align: center;
       font-size: 36px;
@@ -30,7 +30,7 @@
       position: relative;
       &:first-child {
         background-color: var(--zhen-zhu-bai-pearl);
-        @include media-breakpoint-down(sm) {
+        @include media-breakpoint-down(lg) {
           border-top: 1px solid var(--super-silver);
           .card-profile-label {
             align-self: flex-start;
@@ -39,7 +39,7 @@
             margin-bottom: 10px;
           }
         }
-        @include media-breakpoint-up(sm) {
+        @include media-breakpoint-up(lg) {
           background-color: transparent;
           padding-top: 60px;
           padding-bottom: 60px;
@@ -53,11 +53,12 @@
           left: 0;
           width: 100%;
           height: 1px;
-          @include media-breakpoint-up(sm) {
+          @include media-breakpoint-up(lg) {
             width: 1px;
             height: 100%;
             right: 0;
             top: 0;
+            left: auto;
             transform: translateX(50%);
           }
         }
@@ -75,18 +76,19 @@
   }
   .input-rootWrap {
     max-width: 620px;
+    margin: auto;
   }
   .input-label {
     color: var(--text2);
     &:not(:last-child) {
       margin-bottom: 24px;
-      @include media-breakpoint-up(sm) {
+      @include media-breakpoint-up(lg) {
         margin-bottom: 32px;
       }
     }
     span {
       font-size: 14px;
-      @include media-breakpoint-up(sm) {
+      @include media-breakpoint-up(lg) {
         font-size: 18px;
         font-weight: bold;
       }
