@@ -4,7 +4,7 @@
   }
   &-tab {
     margin-bottom: 60px;
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(lg) {
       display: block;
     }
     .btn {
@@ -21,7 +21,7 @@
     border-top: 1px solid var(--black-out);
     margin-bottom: 52px;
 
-    @include media-breakpoint-up(sm) {
+    @include media-breakpoint-up(lg) {
       border-bottom: 1px solid var(--black-out);
     }
     .btn.tool {
@@ -32,7 +32,7 @@
       font-size: 18px;
       justify-content: center;
       align-items: flex-start;
-      @include media-breakpoint-down(sm) {
+      @include media-breakpoint-down(lg) {
         flex-direction: column;
       }
       .unit {
@@ -47,7 +47,7 @@
         vertical-align: text-top;
       }
       .input-grid {
-        @include media-breakpoint-down(sm) {
+        @include media-breakpoint-down(lg) {
           flex-direction: column;
         }
       }
@@ -80,7 +80,7 @@
     background-color: var(--whiteout);
     border-top: 1px solid var(--steam);
     margin-top: 61px;
-    @include media-breakpoint-down(sm) {
+    @include media-breakpoint-down(lg) {
       width: 100vw;
       border-bottom: 1px solid var(--black-out);
       transform: translateX(calc(var(--bs-gutter-x) * -1));
