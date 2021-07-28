@@ -6,17 +6,26 @@
   }
   .card {
     border-radius: 0;
-    padding: 72px 20px;
+    padding: 38px 20px;
     text-align: center;
+    @include media-breakpoint-up(sm) {
+      padding: 72px 20px;
+    }
     &-title {
-      font-size: 36px;
+      font-size: 20px;
       margin-bottom: 16px;
       color: var(--text1);
+      @include media-breakpoint-up(sm) {
+        font-size: 36px;
+      }
     }
     &-content {
-      font-size: 16px;
       color: var(--text4);
       word-break: keep-all;
+      font-size: 14px;
+      @include media-breakpoint-up(sm) {
+        font-size: 16px;
+      }
       > :last-child {
         margin-bottom: 0;
       }
