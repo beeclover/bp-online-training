@@ -1,15 +1,37 @@
-// @mixin textDecoration($bg: var(--bg0), $color: currentColor) {
-//   $size: 1px;
-//   // box-shadow & text-shdaow를 이용한 text-decoration 구성
-//   // 참고: https://codepen.io/999hyeon/pen/QWpVOgL
-//   text-shadow: -#{$size} -#{$size} #{$bg}, -#{$size} #{$size} #{$bg},
-//     #{$size} -#{$size} #{$bg}, #{$size} #{$size} #{$bg};
-//   box-shadow: inset 0 -0.05em #{$bg}, inset 0 -0.1em #{$color};
-//   display: inline;
-// }
 @mixin textDecoration($bg: var(--bg0), $color: currentColor) {
-  text-decoration: underline;
-  text-decoration-color: var(--color);
-  text-underline-position: from-font;
-  text-decoration-thickness: 0.2rem;
+  $size: 1px;
+  // box-shadow & text-shdaow를 이용한 text-decoration 구성
+  // 참고: https://codepen.io/999hyeon/pen/QWpVOgL
+  text-shadow: -#{$size} -#{$size} #{$bg}, -#{$size} #{$size} #{$bg},
+    #{$size} -#{$size} #{$bg}, #{$size} #{$size} #{$bg};
+  box-shadow: inset 0 -0.05em #{$bg}, inset 0 -0.1em #{$color};
+  display: inline;
+  line-height: 1.6;
+  position: relative;
+  // &:after {
+  //   content: '';
+  //   display: block;
+  //   position: absolute;
+  //   right: -1px;
+  //   width: 2px;
+  //   top: 0;
+  //   height: 100%;
+  //   background-color: #{$bg};
+  // }
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: -1px;
+    height: 2px;
+    background-color: #{$bg};
+  }
 }
+// @mixin textDecoration($bg: var(--bg0), $color: currentColor) {
+//   text-decoration: underline;
+//   text-decoration-color: var(--color);
+//   text-underline-position: from-font;
+//   text-decoration-thickness: 0.2rem;
+// }

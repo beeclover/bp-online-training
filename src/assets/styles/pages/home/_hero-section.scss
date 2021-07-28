@@ -165,6 +165,7 @@
         background-size: 1px 1em;
         @include textDecoration(var(--blue-ruin), var(--invert-text0));
         font-size: 28px;
+        font-weight: bold;
         @include media-breakpoint-up(md) {
           font-size: 44px;
         }
@@ -172,6 +173,7 @@
       &-2 {
         opacity: 0.75;
         font-size: 14px;
+        line-height: 1.7;
         @include media-breakpoint-up(md) {
           font-size: 20px;
         }

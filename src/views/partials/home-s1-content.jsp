@@ -1,7 +1,7 @@
 <%@ pagepageEncoding="UTF-8" contentType="text/html;charset=UTF-8"%>
 <p class="main-content">
-  빌딩캠퍼스에서는 스케치업을 처음 사용하는 사용자를 위한 기초 클래스부터<br/>
-  각 분야별 실무에 바로 활용할 수 있는 맞춤형 스킬까지 여러분이 스케치업을 효과적으로<br/>
+  빌딩캠퍼스에서는 스케치업을 처음 사용하는 사용자를 위한 기초 클래스부터<br class="d-none d-sm-none"/>
+  각 분야별 실무에 바로 활용할 수 있는 맞춤형 스킬까지 여러분이 스케치업을 효과적으로<br class="d-none d-sm-none"/>
   사용할 수 있는 맞춤형 교육 컨텐츠를 제공하고 있습니다.
 </p>
 <ul class="main-list">

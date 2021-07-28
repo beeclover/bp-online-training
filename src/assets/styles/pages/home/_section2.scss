@@ -10,13 +10,15 @@
   &-title {
     @include title;
     position: relative;
-    padding-top: 67px;
-    padding-bottom: 67px;
+    padding-top: 23px;
+    padding-bottom: 23px;
     margin-top: 0;
     color: var(--invert-text0);
     margin-bottom: 56.25vw;
     @include media-breakpoint-up(lg) {
       margin-bottom: 0;
+      padding-top: 67px;
+      padding-bottom: 67px;
     }
 
     &:after {
@@ -59,20 +61,32 @@
     margin-bottom: 16px;
   }
   &-title {
-    font-size: 38px;
+    font-size: 24px;
     @include textDecoration(var(--bg0), var(--theatre-blue));
+    @include media-breakpoint-up(sm) {
+      font-size: 38px;
+    }
   }
   &-content {
-    margin-bottom: 48px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    @include media-breakpoint-up(sm) {
+      margin-bottom: 48px;
+    }
   }
   &-readmore {
     background-color: var(--black-out);
     border-radius: 0;
     color: var(--invert-text0);
-    padding: 20px 78px;
-    font-size: 18px;
+    padding: 12px;
+    font-size: 14px;
+
     width: 100%;
     @include media-breakpoint-up(sm) {
+      padding: 20px 78px;
+      font-size: 18px;
+    }
+    @include media-breakpoint-up(lg) {
       font-size: 20px;
       width: auto;
     }
@@ -92,7 +106,7 @@
     max-width: none;
   }
   @include media-breakpoint-down(sm) {
-    top: 192px;
+    top: 105px;
   }
   video {
     max-width: 100%;
