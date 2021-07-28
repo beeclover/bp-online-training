@@ -34,63 +34,70 @@
             <span>23개의 클래스</span>
           </a>
         </div>
-        <div class="education-progress">
-          <%--
-            @attr data-pct - 완료된 클래스 수
-            @attr data-all - 수강신청된 전체 클래스 수
-            @attr data-type - num, per
-          --%>
-          <div
-            class="progress-circle education"
-            id="progress-circle"
-            data-pct="80"
-            data-all="100"
-            data-type="num"
-          >
-            <svg id="svg" width="140" height="140" viewPort="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
-              <circle r="60" cx="70" cy="70" fill="transparent" stroke-dasharray="376.99" stroke-dashoffset="0"></circle>
-              <circle class="bar" id="bar" r="60" cx="70" cy="70" fill="transparent" stroke-dasharray="376.99" stroke-dashoffset="376.99"></circle>
-            </svg>
-            <div class="label">
-              <span>수강완료</span>
-              <div id="value" class="value">.</div>
+        <div class="row w-100 justify-content-between justify-content-lg-center">
+          <div class="col-auto px-0">
+            <div class="education-progress">
+              <%--
+                @attr data-pct - 완료된 클래스 수
+                @attr data-all - 수강신청된 전체 클래스 수
+                @attr data-type - num, per
+              --%>
+              <div
+                class="progress-circle education"
+                id="progress-circle"
+                data-pct="80"
+                data-all="100"
+                data-type="num"
+              >
+                <svg id="svg" width="140" height="140" viewPort="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                  <circle r="60" cx="70" cy="70" fill="transparent" stroke-dasharray="376.99" stroke-dashoffset="0"></circle>
+                  <circle class="bar" id="bar" r="60" cx="70" cy="70" fill="transparent" stroke-dasharray="376.99" stroke-dashoffset="376.99"></circle>
+                </svg>
+                <div class="label">
+                  <span>수강완료</span>
+                  <div id="value" class="value">.</div>
+                </div>
+              </div>
+              <div
+                class="progress-circle education"
+                id="progress-circle"
+                data-pct="22"
+                data-all="100"
+                data-type="per"
+              >
+                <svg id="svg" width="140" height="140" viewPort="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                  <circle r="60" cx="70" cy="70" fill="transparent" stroke-dasharray="376.99" stroke-dashoffset="0"></circle>
+                  <circle class="bar" id="bar" r="60" cx="70" cy="70" fill="transparent" stroke-dasharray="376.99" stroke-dashoffset="376.99"></circle>
+                </svg>
+                <div class="label">
+                  <span>진행률</span>
+                  <div id="value" class="value">.</div>
+                </div>
+              </div>
             </div>
           </div>
-          <div
-            class="progress-circle education"
-            id="progress-circle"
-            data-pct="22"
-            data-all="100"
-            data-type="per"
-          >
-            <svg id="svg" width="140" height="140" viewPort="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
-              <circle r="60" cx="70" cy="70" fill="transparent" stroke-dasharray="376.99" stroke-dashoffset="0"></circle>
-              <circle class="bar" id="bar" r="60" cx="70" cy="70" fill="transparent" stroke-dasharray="376.99" stroke-dashoffset="376.99"></circle>
-            </svg>
-            <div class="label">
-              <span>진행률</span>
-              <div id="value" class="value">.</div>
+          <div class="col-auto d-flex align-items-center">
+            <div class="education-due">
+              <div class="label">
+                <span>남은 수강기간</span>
+                <div class="value" id="value">
+                  <b>32일</b>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="education-due">
-          <div class="label">
-            <span>남은 수강기간</span>
-            <div class="value" id="value">
-              <b>32일</b>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </div>
     <div class="row">
       <div class="col-12">
         <ul class="tab">
           <li>
-            <b><a href="/account-class.jsp" class="tab-item current">수강중인 클래스</a></b>
+            <span class="fw-sm-bold"><a href="/account-class.jsp" class="tab-item current">수강중인 클래스</a></span>
           </li>
           <li>
-            <b><a href="/account-review.jsp" class="tab-item">후기목록</a></b>
+            <span class="fw-sm-bold"><a href="/account-review.jsp" class="tab-item">후기목록</a></span>
           </li>
         </ul>
       </div>

@@ -16,7 +16,10 @@
     .imgWrap {
       border-radius: 999px;
       overflow: hidden;
-      margin-bottom: 32px;
+      margin-bottom: 17px;
+      @include media-breakpoint-up(sm) {
+        margin-bottom: 32px;
+      }
     }
   }
 }

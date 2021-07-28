@@ -21,28 +21,43 @@
         margin-top: 16px;
         display: none;
         color: var(--text4);
-        font-size: 16px;
+        font-size: 13px;
+        padding-left: 24px;
+        line-height: 1.6;
+        font-weight: normal;
+        @include media-breakpoint-up(sm) {
+          font-size: 16px;
+        }
       }
     }
     &-button {
       padding: 28px 0;
       position: relative;
-      align-items: flex-start;
+      align-items: center;
       color: var(--text1);
       box-shadow: none;
 
       &:after {
-        width: 28px;
-        height: 28px;
         background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28'%3E%3Cg%3E%3Cpath fill='%23ccc' d='M8.642 12.916L.473 3.266A2.055 2.055 0 0 1 .595.508a1.731 1.731 0 0 1 2.568.131L12.444 11.6a2.06 2.06 0 0 1 0 2.626L3.163 25.194a1.731 1.731 0 0 1-2.568.131 2.055 2.055 0 0 1-.122-2.758z' transform='translate(28) rotate(90) translate(7.083 1.167)'/%3E%3C/g%3E%3C/svg%3E%0A");
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        width: 24px;
+        height: 24px;
+        margin-right: 8px;
+        @include media-breakpoint-up(sm) {
+          width: 28px;
+          height: 28px;
+        }
       }
       &:not(.collapsed) {
         background-color: transparent;
         border: none;
         box-shadow: inset 0 -1px 0 var(--steam);
+        &:after {
+          background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg%3E%3Cpath fill='%23888' d='M7.253 10.841L.4 18.941a1.725 1.725 0 0 0 .1 2.315 1.453 1.453 0 0 0 2.155-.11l7.789-9.2a1.729 1.729 0 0 0 0-2.2L2.655.536A1.453 1.453 0 0 0 .5.426a1.725 1.725 0 0 0-.1 2.315z' transform='translate(0 23.5) rotate(-90) translate(5.945 0.839)'/%3E%3C/g%3E%3C/svg%3E%0A");
+          transform: rotate(0);
+        }
       }
     }
 
@@ -130,10 +145,14 @@
           }
 
           .title {
-            font-size: 16px;
             padding-top: 2px;
             color: currentColor;
+            font-size: 13px;
             position: relative;
+            font-weight: normal;
+            @include media-breakpoint-up(sm) {
+              font-size: 16px;
+            }
 
             &:after {
               content: '';
@@ -151,11 +170,17 @@
           }
           .link {
             text-decoration: none;
-            padding: 9px 15px 7px;
             color: var(--text2);
             border: 1px solid var(--dhusar-grey);
             border-radius: 2px;
             white-space: nowrap;
+            padding: 4px 15px 5px;
+            @include media-breakpoint-down(sm) {
+              font-size: 13px;
+            }
+            @include media-breakpoint-up(sm) {
+              padding: 9px 15px 7px;
+            }
           }
           &.done .progress-label {
             left: 100%;
@@ -165,8 +190,12 @@
             border-radius: 999px;
             border: solid 1px var(--super-silver);
             box-shadow: none;
-            margin-left: 8px;
+            margin-left: 14px;
             display: block;
+            @include media-breakpoint-down(sm) {
+              padding-left: 12px;
+              padding-right: 12px;
+            }
           }
           &.current .progress-label {
             right: 0;
@@ -264,6 +293,23 @@
         flex-direction: row;
       }
 
+      &-thumbnail {
+        padding-top: 28.125%;
+        position: relative;
+        line-height: 0;
+        font-size: 0;
+        min-width: 132px;
+        img {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          object-fit: cover;
+          width: 100%;
+          height: 100%;
+          transform: translate(-50%, -50%);
+        }
+      }
+
       &-content {
         width: 100%;
         display: flex;
@@ -296,7 +342,6 @@
           width: auto;
         }
         img {
-          height: 76px;
           @include media-breakpoint-up(sm) {
             height: auto;
             width: 100%;

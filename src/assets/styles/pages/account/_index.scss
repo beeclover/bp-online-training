@@ -2,8 +2,11 @@
 
 .page-account {
   .section {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 32px;
+    @include media-breakpoint-up(sm) {
+      margin-top: 80px;
+      margin-bottom: 80px;
+    }
     &:last-child {
       margin-bottom: 140px;
     }

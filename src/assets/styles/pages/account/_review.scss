@@ -1,8 +1,13 @@
 &-header {
-  font-size: 2.5rem;
-  margin-bottom: 32px;
   color: var(--text1);
   font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 24px;
+
+  @include media-breakpoint-up(sm) {
+    margin-bottom: 32px;
+    font-size: 2.5rem;
+  }
 }
 
 &-list {
@@ -11,16 +16,22 @@
   border-bottom: 1px solid var(--tin);
 }
 &-item {
-  padding-top: 48px;
-  padding-bottom: 48px;
+  padding-top: 24px;
+  @include media-breakpoint-up(sm) {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
   &:not(:last-child) {
     border-bottom: 1px solid var(--steam);
   }
   &-row {
-    margin-bottom: 28px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    margin-bottom: 24px;
+    @include media-breakpoint-up(sm) {
+      margin-bottom: 28px;
+    }
     @include gap(28px);
     @include media-breakpoint-up(xl) {
       flex-direction: row;
@@ -31,6 +42,13 @@
     font-size: 18px;
     max-width: 900px;
     color: var(--text3);
+
+    p {
+      font-size: 14px;
+      @include media-breakpoint-up(sm) {
+        font-size: 18px;
+      }
+    }
 
     > :last-child {
       margin-bottom: 0;
@@ -56,6 +74,9 @@
       font-weight: 500;
       font-size: 16px;
       white-space: nowrap;
+    }
+    .btn {
+      padding: 8px 12px;
     }
   }
 }
