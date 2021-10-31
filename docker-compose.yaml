@@ -6,7 +6,7 @@ services:
       - ./.env
     image: tomcat:latest
     volumes:
-      - ../src:/usr/local/tomcat/webapps/ROOT
+      - ./src:/usr/local/tomcat/webapps/ROOT
     deploy:
       placement:
         constraints:
@@ -14,7 +14,7 @@ services:
       labels:
         - traefik.enable=true
         - traefik.http.routers.work-202106__${PROJECT_NAME}.entrypoints=websecure
-        - traefik.http.routers.work-202106__${PROJECT_NAME}.rule=Host(`${PROJECT_NAME}.demo.hyeon.pro`)
+        - traefik.http.routers.work-202106__${PROJECT_NAME}.rule=Host(`${PROJECT_NAME}.demo.beeclover.pro`)
         - traefik.http.routers.work-202106__${PROJECT_NAME}.tls.certresolver=leresolver
         - traefik.http.services.work-202106__${PROJECT_NAME}.loadbalancer.server.port=8080
 
