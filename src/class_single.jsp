@@ -11,7 +11,7 @@
       <div class="s1-top-header">
         <a href="#" class="btn-arrowPrev-group btn-arrow-group">
           <i class="btn-arrowPrev"></i>
-          <div class="labe">이전레슨</div>
+          <div class="label">이전레슨</div>
         </a>
         <div class="s1-top-header-content">
           <div class="number">03_01</div>
@@ -20,7 +20,7 @@
         </div>
         <a href="#" class="btn-arrowNext-group btn-arrow-group">
           <i class="btn-arrowNext"></i>
-          <div class="labe">다음레슨</div>
+          <div class="label">다음레슨</div>
         </a>
       </div>
       <div class="s1-header">
