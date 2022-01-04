@@ -58,68 +58,53 @@
               <ul class="accordion-body-list">
                 <li class="accordion-body-list-item done">
                   <div class="accordion-body-list-item-header">
-                    <span class="title">Getting Started</span>
+                    <span class="title">
+                      그리기 도구 사용법-1<br/>
+                      Line Tool
+                    </span>
                     <a class="link" href="#">다시보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">Complete</div>
-                    </div>
                   </div>
                 </li>
                 <li class="accordion-body-list-item done">
                   <div class="accordion-body-list-item-header">
-                    <span class="title">Creating New Document</span>
+                    <span class="title">
+                      그리기 도구 사용법-2<br/>
+                      Arc Tool, Rectangle Tool
+                    </span>
                     <a class="link" href="#">다시보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">Complete</div>
-                    </div>
                   </div>
                 </li>
                 <li class="accordion-body-list-item done">
                   <div class="accordion-body-list-item-header">
-                    <span class="title">Prepferencrs Overview</span>
+                    <span class="title">
+                      그리기 도구 사용법-3<br/>
+                      Select Tool, Circle Tool, Polygon Tool
+                    </span>
                     <a class="link" href="#">다시보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">Complete</div>
-                    </div>
                   </div>
                 </li>
                 <li class="accordion-body-list-item current">
                   <div class="accordion-body-list-item-header">
-                    <span class="title">Document Setup &Customization</span>
+                    <span class="title">
+                      편집 도구 사용법<br/>
+                      Offset Tool, Erase Tool, Style Tool, Split Tool, Join Tool
+                    </span>
                     <a class="link" href="#">강의보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">50%</div>
-                    </div>
                   </div>
                 </li>
                 <li class="accordion-body-list-item">
                   <div class="accordion-body-list-item-header">
-                    <span class="title">Document Navigation</span>
+                    <span class="title">
+                      주석 도구 사용법<br/>
+                      Text, Label, Dimension Tool
+                    </span>
                     <a class="link" href="#">강의보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">0</div>
-                    </div>
                   </div>
                 </li>
                 <li class="accordion-body-list-item">
                   <div class="accordion-body-list-item-header">
                     <span class="title">Course 1 review Quiz</span>
                     <a class="link" href="#">강의보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">0</div>
-                    </div>
                   </div>
                 </li>
               </ul>
@@ -160,68 +145,53 @@
               <ul class="accordion-body-list">
                 <li class="accordion-body-list-item done">
                   <div class="accordion-body-list-item-header">
-                    <span class="title">Getting Started</span>
+                    <span class="title">
+                      그리기 도구 사용법-1<br/>
+                      Line Tool
+                    </span>
                     <a class="link" href="#">다시보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">Complete</div>
-                    </div>
                   </div>
                 </li>
                 <li class="accordion-body-list-item done">
                   <div class="accordion-body-list-item-header">
-                    <span class="title">Creating New Document</span>
+                    <span class="title">
+                      그리기 도구 사용법-2<br/>
+                      Arc Tool, Rectangle Tool
+                    </span>
                     <a class="link" href="#">다시보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">Complete</div>
-                    </div>
                   </div>
                 </li>
                 <li class="accordion-body-list-item done">
                   <div class="accordion-body-list-item-header">
-                    <span class="title">Prepferencrs Overview</span>
+                    <span class="title">
+                      그리기 도구 사용법-3<br/>
+                      Select Tool, Circle Tool, Polygon Tool
+                    </span>
                     <a class="link" href="#">다시보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">Complete</div>
-                    </div>
                   </div>
                 </li>
                 <li class="accordion-body-list-item current">
                   <div class="accordion-body-list-item-header">
-                    <span class="title">Document Setup &Customization</span>
+                    <span class="title">
+                      편집 도구 사용법<br/>
+                      Offset Tool, Erase Tool, Style Tool, Split Tool, Join Tool
+                    </span>
                     <a class="link" href="#">강의보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">50%</div>
-                    </div>
                   </div>
                 </li>
                 <li class="accordion-body-list-item">
                   <div class="accordion-body-list-item-header">
-                    <span class="title">Document Navigation</span>
+                    <span class="title">
+                      주석 도구 사용법<br/>
+                      Text, Label, Dimension Tool
+                    </span>
                     <a class="link" href="#">강의보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">0</div>
-                    </div>
                   </div>
                 </li>
                 <li class="accordion-body-list-item">
                   <div class="accordion-body-list-item-header">
                     <span class="title">Course 1 review Quiz</span>
                     <a class="link" href="#">강의보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">0</div>
-                    </div>
                   </div>
                 </li>
               </ul>
@@ -258,68 +228,53 @@
               <ul class="accordion-body-list">
                 <li class="accordion-body-list-item done">
                   <div class="accordion-body-list-item-header">
-                    <span class="title">Getting Started</span>
+                    <span class="title">
+                      그리기 도구 사용법-1<br/>
+                      Line Tool
+                    </span>
                     <a class="link" href="#">다시보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">Complete</div>
-                    </div>
                   </div>
                 </li>
                 <li class="accordion-body-list-item done">
                   <div class="accordion-body-list-item-header">
-                    <span class="title">Creating New Document</span>
+                    <span class="title">
+                      그리기 도구 사용법-2<br/>
+                      Arc Tool, Rectangle Tool
+                    </span>
                     <a class="link" href="#">다시보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">Complete</div>
-                    </div>
                   </div>
                 </li>
                 <li class="accordion-body-list-item done">
                   <div class="accordion-body-list-item-header">
-                    <span class="title">Prepferencrs Overview</span>
+                    <span class="title">
+                      그리기 도구 사용법-3<br/>
+                      Select Tool, Circle Tool, Polygon Tool
+                    </span>
                     <a class="link" href="#">다시보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">Complete</div>
-                    </div>
                   </div>
                 </li>
                 <li class="accordion-body-list-item current">
                   <div class="accordion-body-list-item-header">
-                    <span class="title">Document Setup &Customization</span>
+                    <span class="title">
+                      편집 도구 사용법<br/>
+                      Offset Tool, Erase Tool, Style Tool, Split Tool, Join Tool
+                    </span>
                     <a class="link" href="#">강의보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">50%</div>
-                    </div>
                   </div>
                 </li>
                 <li class="accordion-body-list-item">
                   <div class="accordion-body-list-item-header">
-                    <span class="title">Document Navigation</span>
+                    <span class="title">
+                      주석 도구 사용법<br/>
+                      Text, Label, Dimension Tool
+                    </span>
                     <a class="link" href="#">강의보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">0</div>
-                    </div>
                   </div>
                 </li>
                 <li class="accordion-body-list-item">
                   <div class="accordion-body-list-item-header">
                     <span class="title">Course 1 review Quiz</span>
                     <a class="link" href="#">강의보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">0</div>
-                    </div>
                   </div>
                 </li>
               </ul>
@@ -376,68 +331,53 @@
               <ul class="accordion-body-list">
                 <li class="accordion-body-list-item done">
                   <div class="accordion-body-list-item-header">
-                    <span class="title">Getting Started</span>
+                    <span class="title">
+                      그리기 도구 사용법-1<br/>
+                      Line Tool
+                    </span>
                     <a class="link" href="#">다시보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">Complete</div>
-                    </div>
                   </div>
                 </li>
                 <li class="accordion-body-list-item done">
                   <div class="accordion-body-list-item-header">
-                    <span class="title">Creating New Document</span>
+                    <span class="title">
+                      그리기 도구 사용법-2<br/>
+                      Arc Tool, Rectangle Tool
+                    </span>
                     <a class="link" href="#">다시보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">Complete</div>
-                    </div>
                   </div>
                 </li>
                 <li class="accordion-body-list-item done">
                   <div class="accordion-body-list-item-header">
-                    <span class="title">Prepferencrs Overview</span>
+                    <span class="title">
+                      그리기 도구 사용법-3<br/>
+                      Select Tool, Circle Tool, Polygon Tool
+                    </span>
                     <a class="link" href="#">다시보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">Complete</div>
-                    </div>
                   </div>
                 </li>
                 <li class="accordion-body-list-item current">
                   <div class="accordion-body-list-item-header">
-                    <span class="title">Document Setup &Customization</span>
+                    <span class="title">
+                      편집 도구 사용법<br/>
+                      Offset Tool, Erase Tool, Style Tool, Split Tool, Join Tool
+                    </span>
                     <a class="link" href="#">강의보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">50%</div>
-                    </div>
                   </div>
                 </li>
                 <li class="accordion-body-list-item">
                   <div class="accordion-body-list-item-header">
-                    <span class="title">Document Navigation</span>
+                    <span class="title">
+                      주석 도구 사용법<br/>
+                      Text, Label, Dimension Tool
+                    </span>
                     <a class="link" href="#">강의보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">0</div>
-                    </div>
                   </div>
                 </li>
                 <li class="accordion-body-list-item">
                   <div class="accordion-body-list-item-header">
                     <span class="title">Course 1 review Quiz</span>
                     <a class="link" href="#">강의보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">0</div>
-                    </div>
                   </div>
                 </li>
               </ul>
@@ -478,68 +418,53 @@
               <ul class="accordion-body-list">
                 <li class="accordion-body-list-item done">
                   <div class="accordion-body-list-item-header">
-                    <span class="title">Getting Started</span>
+                    <span class="title">
+                      그리기 도구 사용법-1<br/>
+                      Line Tool
+                    </span>
                     <a class="link" href="#">다시보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">Complete</div>
-                    </div>
                   </div>
                 </li>
                 <li class="accordion-body-list-item done">
                   <div class="accordion-body-list-item-header">
-                    <span class="title">Creating New Document</span>
+                    <span class="title">
+                      그리기 도구 사용법-2<br/>
+                      Arc Tool, Rectangle Tool
+                    </span>
                     <a class="link" href="#">다시보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">Complete</div>
-                    </div>
                   </div>
                 </li>
                 <li class="accordion-body-list-item done">
                   <div class="accordion-body-list-item-header">
-                    <span class="title">Prepferencrs Overview</span>
+                    <span class="title">
+                      그리기 도구 사용법-3<br/>
+                      Select Tool, Circle Tool, Polygon Tool
+                    </span>
                     <a class="link" href="#">다시보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">Complete</div>
-                    </div>
                   </div>
                 </li>
                 <li class="accordion-body-list-item current">
                   <div class="accordion-body-list-item-header">
-                    <span class="title">Document Setup &Customization</span>
+                    <span class="title">
+                      편집 도구 사용법<br/>
+                      Offset Tool, Erase Tool, Style Tool, Split Tool, Join Tool
+                    </span>
                     <a class="link" href="#">강의보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">50%</div>
-                    </div>
                   </div>
                 </li>
                 <li class="accordion-body-list-item">
                   <div class="accordion-body-list-item-header">
-                    <span class="title">Document Navigation</span>
+                    <span class="title">
+                      주석 도구 사용법<br/>
+                      Text, Label, Dimension Tool
+                    </span>
                     <a class="link" href="#">강의보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">0</div>
-                    </div>
                   </div>
                 </li>
                 <li class="accordion-body-list-item">
                   <div class="accordion-body-list-item-header">
                     <span class="title">Course 1 review Quiz</span>
                     <a class="link" href="#">강의보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">0</div>
-                    </div>
                   </div>
                 </li>
               </ul>
@@ -576,68 +501,53 @@
               <ul class="accordion-body-list">
                 <li class="accordion-body-list-item done">
                   <div class="accordion-body-list-item-header">
-                    <span class="title">Getting Started</span>
+                    <span class="title">
+                      그리기 도구 사용법-1<br/>
+                      Line Tool
+                    </span>
                     <a class="link" href="#">다시보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">Complete</div>
-                    </div>
                   </div>
                 </li>
                 <li class="accordion-body-list-item done">
                   <div class="accordion-body-list-item-header">
-                    <span class="title">Creating New Document</span>
+                    <span class="title">
+                      그리기 도구 사용법-2<br/>
+                      Arc Tool, Rectangle Tool
+                    </span>
                     <a class="link" href="#">다시보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">Complete</div>
-                    </div>
                   </div>
                 </li>
                 <li class="accordion-body-list-item done">
                   <div class="accordion-body-list-item-header">
-                    <span class="title">Prepferencrs Overview</span>
+                    <span class="title">
+                      그리기 도구 사용법-3<br/>
+                      Select Tool, Circle Tool, Polygon Tool
+                    </span>
                     <a class="link" href="#">다시보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">Complete</div>
-                    </div>
                   </div>
                 </li>
                 <li class="accordion-body-list-item current">
                   <div class="accordion-body-list-item-header">
-                    <span class="title">Document Setup &Customization</span>
+                    <span class="title">
+                      편집 도구 사용법<br/>
+                      Offset Tool, Erase Tool, Style Tool, Split Tool, Join Tool
+                    </span>
                     <a class="link" href="#">강의보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">50%</div>
-                    </div>
                   </div>
                 </li>
                 <li class="accordion-body-list-item">
                   <div class="accordion-body-list-item-header">
-                    <span class="title">Document Navigation</span>
+                    <span class="title">
+                      주석 도구 사용법<br/>
+                      Text, Label, Dimension Tool
+                    </span>
                     <a class="link" href="#">강의보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">0</div>
-                    </div>
                   </div>
                 </li>
                 <li class="accordion-body-list-item">
                   <div class="accordion-body-list-item-header">
                     <span class="title">Course 1 review Quiz</span>
                     <a class="link" href="#">강의보기</a>
-                  </div>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-                      <div class="progress-label">0</div>
-                    </div>
                   </div>
                 </li>
               </ul>

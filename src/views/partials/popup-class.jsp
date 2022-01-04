@@ -56,38 +56,53 @@
                 <ul class="accordion-body-list">
                   <li class="accordion-body-list-item done">
                     <div class="accordion-body-list-item-header">
-                      <span class="title">Getting Started</span>
-                      <span class="time">02:37</span>
+                      <span class="title">
+                        그리기 도구 사용법-1<br/>
+                        Line Tool
+                      </span>
+                      <a class="link" href="#">다시보기</a>
                     </div>
                   </li>
                   <li class="accordion-body-list-item done">
                     <div class="accordion-body-list-item-header">
-                      <span class="title">Creating New Document</span>
-                      <span class="time">02:37</span>
+                      <span class="title">
+                        그리기 도구 사용법-2<br/>
+                        Arc Tool, Rectangle Tool
+                      </span>
+                      <a class="link" href="#">다시보기</a>
                     </div>
                   </li>
                   <li class="accordion-body-list-item done">
                     <div class="accordion-body-list-item-header">
-                      <span class="title">Prepferencrs Overview</span>
-                      <span class="time">02:37</span>
+                      <span class="title">
+                        그리기 도구 사용법-3<br/>
+                        Select Tool, Circle Tool, Polygon Tool
+                      </span>
+                      <a class="link" href="#">다시보기</a>
                     </div>
                   </li>
                   <li class="accordion-body-list-item current">
                     <div class="accordion-body-list-item-header">
-                      <span class="title">Document Setup &Customization</span>
-                      <span class="time">02:37</span>
+                      <span class="title">
+                        편집 도구 사용법<br/>
+                        Offset Tool, Erase Tool, Style Tool, Split Tool, Join Tool
+                      </span>
+                      <a class="link" href="#">강의보기</a>
                     </div>
                   </li>
                   <li class="accordion-body-list-item">
                     <div class="accordion-body-list-item-header">
-                      <span class="title">Document Navigation</span>
-                      <span class="time">02:37</span>
+                      <span class="title">
+                        주석 도구 사용법<br/>
+                        Text, Label, Dimension Tool
+                      </span>
+                      <a class="link" href="#">강의보기</a>
                     </div>
                   </li>
                   <li class="accordion-body-list-item">
                     <div class="accordion-body-list-item-header">
                       <span class="title">Course 1 review Quiz</span>
-                      <span class="time">02:37</span>
+                      <a class="link" href="#">강의보기</a>
                     </div>
                   </li>
                 </ul>
@@ -128,38 +143,53 @@
                 <ul class="accordion-body-list">
                   <li class="accordion-body-list-item done">
                     <div class="accordion-body-list-item-header">
-                      <span class="title">Getting Started</span>
-                      <span class="time">02:37</span>
+                      <span class="title">
+                        그리기 도구 사용법-1<br/>
+                        Line Tool
+                      </span>
+                      <a class="link" href="#">다시보기</a>
                     </div>
                   </li>
                   <li class="accordion-body-list-item done">
                     <div class="accordion-body-list-item-header">
-                      <span class="title">Creating New Document</span>
-                      <span class="time">02:37</span>
+                      <span class="title">
+                        그리기 도구 사용법-2<br/>
+                        Arc Tool, Rectangle Tool
+                      </span>
+                      <a class="link" href="#">다시보기</a>
                     </div>
                   </li>
                   <li class="accordion-body-list-item done">
                     <div class="accordion-body-list-item-header">
-                      <span class="title">Prepferencrs Overview</span>
-                      <span class="time">02:37</span>
+                      <span class="title">
+                        그리기 도구 사용법-3<br/>
+                        Select Tool, Circle Tool, Polygon Tool
+                      </span>
+                      <a class="link" href="#">다시보기</a>
                     </div>
                   </li>
                   <li class="accordion-body-list-item current">
                     <div class="accordion-body-list-item-header">
-                      <span class="title">Document Setup &Customization</span>
-                      <span class="time">02:37</span>
+                      <span class="title">
+                        편집 도구 사용법<br/>
+                        Offset Tool, Erase Tool, Style Tool, Split Tool, Join Tool
+                      </span>
+                      <a class="link" href="#">강의보기</a>
                     </div>
                   </li>
                   <li class="accordion-body-list-item">
                     <div class="accordion-body-list-item-header">
-                      <span class="title">Document Navigation</span>
-                      <span class="time">02:37</span>
+                      <span class="title">
+                        주석 도구 사용법<br/>
+                        Text, Label, Dimension Tool
+                      </span>
+                      <a class="link" href="#">강의보기</a>
                     </div>
                   </li>
                   <li class="accordion-body-list-item">
                     <div class="accordion-body-list-item-header">
                       <span class="title">Course 1 review Quiz</span>
-                      <span class="time">02:37</span>
+                      <a class="link" href="#">강의보기</a>
                     </div>
                   </li>
                 </ul>
@@ -196,49 +226,52 @@
                 <ul class="accordion-body-list">
                   <li class="accordion-body-list-item done">
                     <div class="accordion-body-list-item-header">
-                      <div class="accordion-body-list-item-header">
-                        <span class="title">Getting Started</span>
-                    </div>
+                      <span class="title">
+                        그리기 도구 사용법-1<br/>
+                        Line Tool
+                      </span>
                       <a class="link" href="#">다시보기</a>
                     </div>
                   </li>
                   <li class="accordion-body-list-item done">
                     <div class="accordion-body-list-item-header">
-                      <div class="accordion-body-list-item-header">
-                        <span class="title">Creating New Document</span>
-                    </div>
+                      <span class="title">
+                        그리기 도구 사용법-2<br/>
+                        Arc Tool, Rectangle Tool
+                      </span>
                       <a class="link" href="#">다시보기</a>
                     </div>
                   </li>
                   <li class="accordion-body-list-item done">
                     <div class="accordion-body-list-item-header">
-                      <div class="accordion-body-list-item-header">
-                        <span class="title">Prepferencrs Overview</span>
-                    </div>
+                      <span class="title">
+                        그리기 도구 사용법-3<br/>
+                        Select Tool, Circle Tool, Polygon Tool
+                      </span>
                       <a class="link" href="#">다시보기</a>
                     </div>
                   </li>
                   <li class="accordion-body-list-item current">
                     <div class="accordion-body-list-item-header">
-                      <div class="accordion-body-list-item-header">
-                        <span class="title">Document Setup &Customization</span>
-                    </div>
+                      <span class="title">
+                        편집 도구 사용법<br/>
+                        Offset Tool, Erase Tool, Style Tool, Split Tool, Join Tool
+                      </span>
                       <a class="link" href="#">강의보기</a>
                     </div>
                   </li>
                   <li class="accordion-body-list-item">
                     <div class="accordion-body-list-item-header">
-                      <div class="accordion-body-list-item-header">
-                        <span class="title">Document Navigation</span>
-                    </div>
+                      <span class="title">
+                        주석 도구 사용법<br/>
+                        Text, Label, Dimension Tool
+                      </span>
                       <a class="link" href="#">강의보기</a>
                     </div>
                   </li>
                   <li class="accordion-body-list-item">
                     <div class="accordion-body-list-item-header">
-                      <div class="accordion-body-list-item-header">
-                        <span class="title">Course 1 review Quiz</span>
-                    </div>
+                      <span class="title">Course 1 review Quiz</span>
                       <a class="link" href="#">강의보기</a>
                     </div>
                   </li>
