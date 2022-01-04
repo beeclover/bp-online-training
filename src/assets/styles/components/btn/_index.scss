@@ -45,4 +45,32 @@
   &-pre {
     @import 'pre';
   }
+
+  &-arrowPrev {
+    display: inline-flex;
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("data:image/svg+xml,%3Csvg id='그룹_491' data-name='그룹 491' xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 50 50'%3E%3Cdefs%3E%3Cstyle%3E .cls-2%7Bfill:none;stroke:%23a1a2a3;stroke-linecap:round;stroke-width:2px%7D %3C/style%3E%3C/defs%3E%3Cg id='icon24_prew' transform='translate(14 14)'%3E%3Cg id='그룹_48' data-name='그룹 48' transform='translate(5.5 2.75)'%3E%3Cpath id='패스_201' data-name='패스 201' class='cls-2' d='m0 8.25 3.609-3.609 1.2-1.2L8.25 0'/%3E%3Cpath id='패스_202' data-name='패스 202' class='cls-2' d='m0 0 3.609 3.609.516.516L8.25 8.25' transform='translate(0 8.25)'/%3E%3C/g%3E%3C/g%3E%3Cg id='타원_41' data-name='타원 41' style='stroke:%23707070;fill:none'%3E%3Ccircle cx='25' cy='25' r='25' style='stroke:none'/%3E%3Ccircle cx='25' cy='25' r='24.5' style='fill:none'/%3E%3C/g%3E%3C/svg%3E%0A");
+  }
+
+  &-arrowNext {
+    display: inline-flex;
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50' viewBox='0 0 50 50'%3E%3Cdefs%3E%3Cstyle%3E .cls-2%7Bfill:none;stroke:%23a1a2a3;stroke-linecap:round;stroke-width:2px%7D %3C/style%3E%3C/defs%3E%3Cg id='그룹_490' data-name='그룹 490' transform='translate(-1529 -503)'%3E%3Cg id='icon24_prew' transform='translate(1546 517)'%3E%3Cg id='그룹_48' data-name='그룹 48' transform='translate(6.25 2.75)'%3E%3Cpath id='패스_201' data-name='패스 201' class='cls-2' d='M8.25 8.25 4.641 4.641l-1.2-1.2L0 0'/%3E%3Cpath id='패스_202' data-name='패스 202' class='cls-2' d='M8.25 0 4.641 3.609l-.516.516L0 8.25' transform='translate(0 8.25)'/%3E%3C/g%3E%3C/g%3E%3Cg id='타원_41' data-name='타원 41' transform='translate(1529 503)' style='stroke:%23707070;fill:none'%3E%3Ccircle cx='25' cy='25' r='25' style='stroke:none'/%3E%3Ccircle cx='25' cy='25' r='24.5' style='fill:none'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+  }
 }

@@ -9,13 +9,73 @@
       padding-right: 0;
     }
   }
+
+  &-top-header {
+    padding-top: 15px;
+    margin-bottom: 85px;
+    position: relative;
+
+    .btn-arrow-group {
+      text-decoration: none;
+      color: #666666;
+      line-height: 1;
+      margin-top: 20px;
+
+      i {
+        font-size: 50px;
+        margin-bottom: 14px;
+      }
+      .label {
+        font-size: 16px;
+      }
+    }
+    .btn-arrowPrev-group {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    .btn-arrowNext-group {
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    &-content {
+      text-align: center;
+      color: var(--black-out);
+      padding-left: 68px;
+      padding-right: 68px;
+
+      .number {
+        font-size: 34px;
+        font-weight: bold;
+        line-height: 50px;
+        margin-bottom: 30px;
+      }
+      .title {
+        font-size: 34px;
+        font-weight: bold;
+        line-height: 43px;
+        margin-bottom: 13px;
+      }
+      .title2 {
+        font-size: 20px;
+        line-height: 24px;
+      }
+    }
+  }
+
   &-header {
     @include media-breakpoint-up(sm) {
       display: flex;
       justify-content: space-between;
-      padding-bottom: 18px;
-      margin-bottom: 40px;
-      border-bottom: 2px solid var(--black-out);
+      padding-top: 28px;
+      padding-bottom: 28px;
+      margin-bottom: 60px;
+      border-bottom: 1px solid #707070;
+      border-top: 1px solid #707070;
     }
 
     a {
@@ -66,21 +126,25 @@
       }
     }
     #{$iconSize} {
-      font-size: 28px;
+      font-size: 24px;
     }
     .icon-wrap {
       @include gap(8px);
     }
     .icon-label {
       font-size: 18px;
+      color: var(--black-out);
+
       @include media-breakpoint-up(sm) {
-        font-size: 20px;
+        font-size: 16px;
       }
     }
   }
   &-content {
     padding-top: 56.4%;
     position: relative;
+    margin-bottom: 80px;
+
     @include media-breakpoint-up(sm) {
       margin-top: 40px;
       margin-bottom: 140px;
@@ -93,5 +157,10 @@
       left: 50%;
       transform: translate(-50%, -50%);
     }
+  }
+
+  &-footer {
+    text-align: center;
+    padding-bottom: 40px;
   }
 }
