@@ -129,6 +129,10 @@
       display: none;
       font-weight: normal;
       border-left: 1px solid rgba(var(--RGB-invert-text0), 0.2);
+
+      @include media-breakpoint-down(lg) {
+        display: none !important;
+      }
     }
   }
 }
@@ -156,10 +160,16 @@
       padding-top: 0;
       padding-bottom: 0;
       flex-wrap: nowrap;
+      @include media-breakpoint-down(sm) {
+        padding-right: 0;
+      }
       &-left {
         margin-bottom: 0;
         padding-top: 14px;
         padding-bottom: 14px;
+        @include media-breakpoint-down(sm) {
+          padding-right: 16px;
+        }
       }
     }
     &-title {

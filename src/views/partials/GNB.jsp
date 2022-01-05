@@ -192,7 +192,7 @@
   <div class="container gnb-pageheader-container">
     <button type="button" class="btn-pre" data-bs-dismiss="modal" aria-label="Close"></button>
     <div class="gnb-pageheader-title">
-      페이지 이름
+      강의보기
     </div>
   </div>
 </div>
