@@ -1,4 +1,4 @@
-import './autoload/**/*';
+import './autoload/_bootstrap';
 
 import Router from './util/Router';
 import common from './routes/common';

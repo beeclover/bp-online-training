@@ -77,10 +77,16 @@
         );
         window.canvasElmPath[
           uniqKey
-        ] = `<path data-link="${uniqKey}" d="M ${coords} "style="fill:none;stroke: currentColor; stroke-width: ${this.settings['lineWidth']}; stroke-linecap: round;" stroke-dasharray="4" />`;
+        ] = `<path data-link="${uniqKey}" d="M ${coords} "style="fill:none;stroke: currentColor; stroke-width: ${this.settings['lineWidth']}; stroke-linecap: round; marker-end:url(#arrowhead);" stroke-dasharray="4" />`;
         const paths = Object.values(canvasElmPath).join('');
         const line = `
             <svg class="simple-flow-line">
+              <defs>
+                <marker id="arrowhead" viewBox="0 0 10 10" refX="8" refY="5"
+                    markerUnits="strokeWidth" markerWidth="8" markerHeight="6" orient="auto">
+                  <path d="M 0 0 L 10 5 L 0 10 z" stroke="none" fill="currentColor"/>
+                </marker>
+              </defs>
               ${paths}
             </svg>
           `;

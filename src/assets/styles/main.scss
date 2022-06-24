@@ -1,19 +1,15 @@
-// 라이브러리 & 순서상관없는 scss로드
 @import './autoload/**/*';
 
 @import './functions/**/*';
 
-// common
 @import './common/reset';
 @import './common/root-zeplin';
 @import './common/root';
 @import './common/global';
 @import './common/token';
 
-// layout
 @import './layouts/main';
 
-// components
 @import './components/modal';
 @import './components/icon';
 @import './components/btn';
@@ -28,10 +24,13 @@
 @import './components/shop';
 @import './components/list';
 
-// pages
 @import './pages/home';
 @import './pages/page-class';
 @import './pages/account';
 @import './pages/search';
 @import './pages/signup';
 @import './pages/roadmap';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
