@@ -4,6 +4,9 @@ services:
   tomcat:
     env_file:
       - ./.env
+    networks:
+      - traefik_proxy
+      - default
     image: tomcat:latest
     volumes:
       - ./src:/usr/local/tomcat/webapps/ROOT
@@ -16,6 +19,5 @@ services:
 
 ########################### NETWORKS
 networks:
-  default:
-    external:
-      name: WORK
+  traefik_proxy:
+    external: true
