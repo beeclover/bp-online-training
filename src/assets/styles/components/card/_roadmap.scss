@@ -2,9 +2,11 @@
   &-wrap {
     --cardHeight: 120px;
     --space: 40px;
+    --cardTitleHeight: 35px;
     @include media-breakpoint-up(xl) {
-      --cardHeight: 160px;
-      --space: 100px;
+      --cardHeight: 100px;
+      --space: 60px;
+      --cardTitleHeight: 35px;
     }
   }
   background-color: var(--bg0);
@@ -26,8 +28,12 @@
   text-align: center;
   word-break: keep-all;
   @include media-breakpoint-up(xl) {
-    font-size: 18px;
+    font-size: 16px;
     text-align: left;
+  }
+
+  &-lineWrap {
+    // margin-bottom: var(--space);
   }
 
   &:hover {
@@ -41,7 +47,7 @@
     }
   }
   &-header {
-    height: 72px;
+    height: 100px;
     color: var(--invert-text0);
     display: flex;
     align-items: center;
@@ -50,8 +56,9 @@
     margin-bottom: var(--space);
     background-color: var(--black-out);
     font-size: 16px;
+    text-align: center;
     @include media-breakpoint-up(sm) {
-      font-size: 24px;
+      font-size: 20px;
     }
     &.fullWidth {
       width: calc(100% + var(--bs-gutter-x));
@@ -89,12 +96,12 @@
       opacity: 0.5;
       margin-bottom: 8px;
       @include media-breakpoint-up(sm) {
-        font-size: 18px;
+        font-size: 16px;
       }
     }
     b {
       line-height: 1.4;
-      font-size: 18px;
+      font-size: 16px;
       font-weight: 500;
       @include media-breakpoint-up(sm) {
         font-size: 24px;
@@ -109,8 +116,19 @@
     &.row2 {
       height: auto;
       @include media-breakpoint-up(xl) {
-        height: calc(var(--cardHeight) * 2 + var(--space));
+        height: calc(
+          (var(--cardHeight) + var(--cardTitleHeight)) * 2 + var(--space)
+        );
       }
+    }
+  }
+  &-row2 {
+    height: auto;
+    margin-bottom: var(--space);
+    @include media-breakpoint-up(xl) {
+      height: calc(
+        (var(--cardHeight) + var(--cardTitleHeight)) * 2 + var(--space)
+      );
     }
   }
 }

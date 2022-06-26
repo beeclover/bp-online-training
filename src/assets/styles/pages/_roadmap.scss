@@ -13,8 +13,19 @@ svg.simple-flow-line {
 .roadmap {
   &-canvas {
     position: relative;
+
+    --cardHeight: 120px;
+    --space: 40px;
+    --cardTitleHeight: 35px;
+    @include media-breakpoint-up(xl) {
+      --cardHeight: 100px;
+      --space: 60px;
+      --cardTitleHeight: 35px;
+    }
+    --cardTitleHeight: 35px;
+
     > .row {
-      --bs-gutter-x: 60px;
+      --bs-gutter-x: 20px;
     }
   }
   &-left {
@@ -38,4 +49,11 @@ svg.simple-flow-line {
       visibility: visible;
     }
   }
+}
+
+.customline-pointer-1 {
+  top: calc((var(--cardHeight) + var(--cardTitleHeight)) + var(--space) / 2);
+  transform: translateY(50%);
+  width: 40px;
+  background-color: red;
 }
